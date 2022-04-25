@@ -1,0 +1,33 @@
+Datumi:
+20141022,
+20090908,
+20090310,
+20161024,
+20050505,
+
+IMDB_date_name_mini.list:
+	vnos: 8629300 ns
+	iskanje1: 400 ns
+	iskanje2: 400 ns
+	iskanje3: 300 ns
+	iskanje4: 300 ns
+	iskanje5: 400 ns
+
+IMDB_date_name_mini_sorted.list:
+	vnos: 229901100 ns
+	iskanje1: 154700 ns
+	iskanje2: 40500 ns
+	iskanje3: 38400 ns
+	iskanje4: 81300 ns
+	iskanje5: 24300 ns
+
+IMDB_date_name_full.list:
+	vnos: 2648777300 ns
+	iskanje1: 600 ns
+	iskanje2: 600 ns
+	iskanje3: 400 ns
+	iskanje4: 700 ns
+	iskanje5: 500 ns
+
+IMDB_date_name_full_sorted.list:
+	Nalaganje traja predolgo!

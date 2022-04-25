@@ -1,0 +1,74 @@
+Nakljujcno:
+1: 10000, 
+2: 20000, 
+3: 30000, 
+4: 40000, 
+5: 50000.
+
+Narascajoce:
+6: 10000, 
+7: 20000, 
+8: 30000, 
+9: 40000, 
+10: 50000.
+
+----------------------
+
+brez mediane:
+1. 585900 ns
+2. 1009200 ns
+3. 1422600 ns
+4. 2011800 ns
+5. 2515700 ns
+6. 16703300 ns
+7. 66624600 ns
+8. 150743900 ns
+9. 269244700 ns
+10. 418171500 ns
+
+z mediano:
+1. 422700 ns
+2. 887600 ns
+3. 1365200 ns
+4. 1893600 ns
+5. 2415100 ns
+6. 72700 ns
+7. 149400 ns
+8. 221700 ns
+9. 310600 ns
+10. 392800 ns
+
+drugi algoritem:
+1. 21954700 ns
+2. 87689000 ns
+3. 195899700 ns
+4. 345327800 ns
+5. 539170900 ns
+6. 21383200 ns
+7. 85080500 ns
+8. 191376200 ns
+9. 345234000 ns
+10. 541918400 ns
+
+---------------------
+
+Generiraj narascajoce zaporedje (1000000) urejanje QS brez mediane: sesuje.
+Generiraj padajoce zaporedje (1000000) urejanje QS brez mediane: sesuje.
+
+Generiraj narascajoce zaporedje (10000) urejanje QS brez mediane: 16562900 ns
+Generiraj padajoce zaporedje (10000) urejanje QS brez mediane:     17151900 ns
+
+koda:
+double x[10000];
+        x[0]=0;
+
+10000:
+Signal: SIGSEGV (Segmentation fault)
+Signal: SIGSEGV (Segmentation fault)
+
+Process finished with exit code 1
+
+Programu zmanjka pomnilnika saj je koda znotraj rekurzivnega loopa.
+
+10:
+Cas: 18137788800 ns

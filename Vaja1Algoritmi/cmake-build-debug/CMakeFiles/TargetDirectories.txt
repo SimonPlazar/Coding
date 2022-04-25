@@ -1,0 +1,3 @@
+D:/Coding/Vaja1Algoritmi/cmake-build-debug/CMakeFiles/Vaja1Algoritmi.dir
+D:/Coding/Vaja1Algoritmi/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Vaja1Algoritmi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

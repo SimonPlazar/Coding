@@ -1,0 +1,8 @@
+# ninja log v5
+26	460	6699224196079188	CMakeFiles/SimonPlazar0502.dir/Device.cpp.obj	64e3b4fa4c552f50
+2	550	6699285496514123	CMakeFiles/SimonPlazar0502.dir/main.cpp.obj	77cc56a2838c6638
+25	470	6699285495706204	CMakeFiles/SimonPlazar0502.dir/Speaker.cpp.obj	41f44b5f3369092c
+606	765	6699285498634352	SimonPlazar0502.exe	dcbd9fbd90ddb813
+30	599	6699224197475947	CMakeFiles/SimonPlazar0502.dir/SmartHome.cpp.obj	542da5cd7da12a09
+27	472	6699260642135256	CMakeFiles/SimonPlazar0502.dir/Light.cpp.obj	467346c4e63bb647
+29	605	6699285497066946	CMakeFiles/SimonPlazar0502.dir/Thermostat.cpp.obj	a1ba56d427d2b715

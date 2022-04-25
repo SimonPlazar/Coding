@@ -1,0 +1,10 @@
+pushFrontList (10000): 378300 ns
+pushFrontArr (10000): 14775400 ns
+pushBackList (10000): 329200 ns
+pushBackArr (10000): 15600 ns
+getAvgList (10000): sum: 50005000, 25400 ns
+getAvgArr (10000): sum: 50005000, 1700 ns
+
+Struktura list je premagala polje v vstavljanju vrednosti na začetek, v vseh ostzalih primerih pa je array bil hitrejši.
+Razen v zgoraj navedenem primeru je array boljša izbira, če bomo zapolnili celotno polje (in s tem pomnilniški prostor ki ga zaseda).
+List zaseda samo tolko pomnilniškega prostora, kot je trenutno elementov v njem.

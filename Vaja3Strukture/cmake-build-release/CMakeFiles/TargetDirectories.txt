@@ -1,0 +1,3 @@
+D:/Coding/Vaja3Strukture/cmake-build-release/CMakeFiles/Vaja3Strukture.dir
+D:/Coding/Vaja3Strukture/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/Coding/Vaja3Strukture/cmake-build-release/CMakeFiles/rebuild_cache.dir

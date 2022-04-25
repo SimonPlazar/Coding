@@ -1,0 +1,7 @@
+# ninja log v5
+31	802	6692512540306639	CMakeFiles/SimonPlazar0401.dir/Date.cpp.obj	a68f253e8a63b82d
+40	805	6692512540306639	CMakeFiles/SimonPlazar0401.dir/Artist.cpp.obj	773594fa6f519d9c
+0	808	6692512540323819	CMakeFiles/SimonPlazar0401.dir/Artwork.cpp.obj	a9e9c60874bbf2a9
+3	613	6696556814511837	CMakeFiles/SimonPlazar0401.dir/main.cpp.obj	36e312f07410d984
+583	734	6696557835691113	SimonPlazar0401.exe	6d10e8e2741bbedd
+2	583	6696557834211661	CMakeFiles/SimonPlazar0401.dir/Gallery.cpp.obj	a14dc40d6c8ea523

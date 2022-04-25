@@ -1,0 +1,3 @@
+D:/Coding/SimonPlazar0801/cmake-build-debug/CMakeFiles/SimonPlazar0801Test.dir
+D:/Coding/SimonPlazar0801/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/SimonPlazar0801/cmake-build-debug/CMakeFiles/rebuild_cache.dir
