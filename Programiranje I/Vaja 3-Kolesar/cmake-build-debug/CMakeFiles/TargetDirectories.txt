@@ -1,0 +1,3 @@
+D:/Coding/Programiranje I/Vaja 3-Kolesar/cmake-build-debug/CMakeFiles/Vaja_3_Kolesar.dir
+D:/Coding/Programiranje I/Vaja 3-Kolesar/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Programiranje I/Vaja 3-Kolesar/cmake-build-debug/CMakeFiles/rebuild_cache.dir
