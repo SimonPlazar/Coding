@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Coding/DN2Algoritmi/cmake-build-debug/
+cmake_ninja_workdir = D$:/Coding/Algoritmi/DN2Algoritmi/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target DN2Algoritmi
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Coding/DN2Algoritmi/cmake-build-debug/
 
 build cmake_object_order_depends_target_DN2Algoritmi: phony || CMakeFiles/DN2Algoritmi.dir
 
-build CMakeFiles/DN2Algoritmi.dir/DN2Algoritmi.cpp.obj: CXX_COMPILER__DN2Algoritmi_Debug D$:/Coding/DN2Algoritmi/DN2Algoritmi.cpp || cmake_object_order_depends_target_DN2Algoritmi
+build CMakeFiles/DN2Algoritmi.dir/DN2Algoritmi.cpp.obj: CXX_COMPILER__DN2Algoritmi_Debug D$:/Coding/Algoritmi/DN2Algoritmi/DN2Algoritmi.cpp || cmake_object_order_depends_target_DN2Algoritmi
   DEP_FILE = CMakeFiles\DN2Algoritmi.dir\DN2Algoritmi.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\DN2Algoritmi.dir
@@ -82,7 +82,7 @@ build DN2Algoritmi.exe: CXX_EXECUTABLE_LINKER__DN2Algoritmi_Debug CMakeFiles/DN2
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\DN2Algoritmi\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\Coding\Algoritmi\DN2Algoritmi\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -93,7 +93,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\DN2Algoritmi\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\DN2Algoritmi -BD:\Coding\DN2Algoritmi\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\Coding\Algoritmi\DN2Algoritmi\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\Algoritmi\DN2Algoritmi -BD:\Coding\Algoritmi\DN2Algoritmi\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,7 +111,7 @@ build DN2Algoritmi: phony DN2Algoritmi.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Coding/DN2Algoritmi/cmake-build-debug
+# Folder: D:/Coding/Algoritmi/DN2Algoritmi/cmake-build-debug
 
 build all: phony DN2Algoritmi.exe
 

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Coding/Vaja3Strukture/cmake-build-relwithdebinfo/
+cmake_ninja_workdir = D$:/Coding/Podatkovne$ Strukture/Vaja3Strukture/cmake-build-relwithdebinfo/
 # =============================================================================
 # Object build statements for EXECUTABLE target Vaja3Strukture
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Coding/Vaja3Strukture/cmake-build-relwithdebinfo/
 
 build cmake_object_order_depends_target_Vaja3Strukture: phony || CMakeFiles/Vaja3Strukture.dir
 
-build CMakeFiles/Vaja3Strukture.dir/main.cpp.obj: CXX_COMPILER__Vaja3Strukture_RelWithDebInfo D$:/Coding/Vaja3Strukture/main.cpp || cmake_object_order_depends_target_Vaja3Strukture
+build CMakeFiles/Vaja3Strukture.dir/main.cpp.obj: CXX_COMPILER__Vaja3Strukture_RelWithDebInfo D$:/Coding/Podatkovne$ Strukture/Vaja3Strukture/main.cpp || cmake_object_order_depends_target_Vaja3Strukture
   DEP_FILE = CMakeFiles\Vaja3Strukture.dir\main.cpp.obj.d
   FLAGS = -O2 -g -DNDEBUG -std=gnu++14
   OBJECT_DIR = CMakeFiles\Vaja3Strukture.dir
@@ -81,7 +81,7 @@ build Vaja3Strukture.exe: CXX_EXECUTABLE_LINKER__Vaja3Strukture_RelWithDebInfo C
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\Vaja3Strukture\cmake-build-relwithdebinfo && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Podatkovne Strukture\Vaja3Strukture\cmake-build-relwithdebinfo" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\Vaja3Strukture\cmake-build-relwithdebinfo && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\Vaja3Strukture -BD:\Coding\Vaja3Strukture\cmake-build-relwithdebinfo"
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Podatkovne Strukture\Vaja3Strukture\cmake-build-relwithdebinfo" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Coding\Podatkovne Strukture\Vaja3Strukture" -B"D:\Coding\Podatkovne Strukture\Vaja3Strukture\cmake-build-relwithdebinfo""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build Vaja3Strukture: phony Vaja3Strukture.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Coding/Vaja3Strukture/cmake-build-relwithdebinfo
+# Folder: D:/Coding/Podatkovne Strukture/Vaja3Strukture/cmake-build-relwithdebinfo
 
 build all: phony Vaja3Strukture.exe
 

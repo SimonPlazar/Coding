@@ -1,3 +1,3 @@
-D:/Coding/Vaja8Strukture/cmake-build-debug/CMakeFiles/Vaja8Strukture.dir
-D:/Coding/Vaja8Strukture/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Vaja8Strukture/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Coding/Podatkovne Strukture/Vaja8Strukture/cmake-build-debug/CMakeFiles/Vaja8Strukture.dir
+D:/Coding/Podatkovne Strukture/Vaja8Strukture/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Podatkovne Strukture/Vaja8Strukture/cmake-build-debug/CMakeFiles/rebuild_cache.dir

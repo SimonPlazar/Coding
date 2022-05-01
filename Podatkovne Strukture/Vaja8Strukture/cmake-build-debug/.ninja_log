@@ -1,6 +1,6 @@
 # ninja log v5
-3	284	6726098650398595	build.ninja	34ed114ff917bd5f
-2	818	6725150414218338	CMakeFiles/Vaja8Strukture.dir/Vaja8Strukture.cpp.obj	85229973a79a1037
-818	993	6725150415944006	Vaja8Strukture.exe	2a80a9c48c9ab03a
+3	284	6731256135462660	build.ninja	34ed114ff917bd5f
 2	840	6726133603773460	CMakeFiles/Vaja8Strukture.dir/Vaja8Strukture.cpp.obj	13aae1d8b2e87357
 840	1027	6726133605632265	Vaja8Strukture.exe	2a80a9c48c9ab03a
+2	839	6731263946972977	CMakeFiles/Vaja8Strukture.dir/Vaja8Strukture.cpp.obj	49269a8f453e05f4
+839	1063	6731263949197405	Vaja8Strukture.exe	2a80a9c48c9ab03a

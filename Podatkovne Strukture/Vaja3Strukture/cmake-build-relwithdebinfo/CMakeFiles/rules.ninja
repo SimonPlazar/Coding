@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\Vaja3Strukture -BD:\Coding\Vaja3Strukture\cmake-build-relwithdebinfo
+  command = "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Coding\Podatkovne Strukture\Vaja3Strukture" -B"D:\Coding\Podatkovne Strukture\Vaja3Strukture\cmake-build-relwithdebinfo"
   description = Re-running CMake...
   generator = 1
 

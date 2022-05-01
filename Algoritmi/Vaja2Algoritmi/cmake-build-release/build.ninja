@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Coding/Vaja2Algoritmi/cmake-build-release/
+cmake_ninja_workdir = D$:/Coding/Algoritmi/Vaja2Algoritmi/cmake-build-release/
 # =============================================================================
 # Object build statements for EXECUTABLE target Vaja2Algoritmi
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Coding/Vaja2Algoritmi/cmake-build-release/
 
 build cmake_object_order_depends_target_Vaja2Algoritmi: phony || CMakeFiles/Vaja2Algoritmi.dir
 
-build CMakeFiles/Vaja2Algoritmi.dir/Vaja2Algoritmi.cpp.obj: CXX_COMPILER__Vaja2Algoritmi_Release D$:/Coding/Vaja2Algoritmi/Vaja2Algoritmi.cpp || cmake_object_order_depends_target_Vaja2Algoritmi
+build CMakeFiles/Vaja2Algoritmi.dir/Vaja2Algoritmi.cpp.obj: CXX_COMPILER__Vaja2Algoritmi_Release D$:/Coding/Algoritmi/Vaja2Algoritmi/Vaja2Algoritmi.cpp || cmake_object_order_depends_target_Vaja2Algoritmi
   DEP_FILE = CMakeFiles\Vaja2Algoritmi.dir\Vaja2Algoritmi.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++14
   OBJECT_DIR = CMakeFiles\Vaja2Algoritmi.dir
@@ -82,7 +82,7 @@ build Vaja2Algoritmi.exe: CXX_EXECUTABLE_LINKER__Vaja2Algoritmi_Release CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\Vaja2Algoritmi\cmake-build-release && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\Coding\Algoritmi\Vaja2Algoritmi\cmake-build-release && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -93,7 +93,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\Vaja2Algoritmi\cmake-build-release && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\Vaja2Algoritmi -BD:\Coding\Vaja2Algoritmi\cmake-build-release"
+  COMMAND = cmd.exe /C "cd /D D:\Coding\Algoritmi\Vaja2Algoritmi\cmake-build-release && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\Algoritmi\Vaja2Algoritmi -BD:\Coding\Algoritmi\Vaja2Algoritmi\cmake-build-release"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -111,7 +111,7 @@ build Vaja2Algoritmi: phony Vaja2Algoritmi.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Coding/Vaja2Algoritmi/cmake-build-release
+# Folder: D:/Coding/Algoritmi/Vaja2Algoritmi/cmake-build-release
 
 build all: phony Vaja2Algoritmi.exe
 

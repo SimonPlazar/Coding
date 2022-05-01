@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Coding/Vaja6Strukture/cmake-build-release/
+cmake_ninja_workdir = D$:/Coding/Podatkovne$ Strukture/Vaja6Strukture/cmake-build-release/
 # =============================================================================
 # Object build statements for EXECUTABLE target Vaja6Strukture
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Coding/Vaja6Strukture/cmake-build-release/
 
 build cmake_object_order_depends_target_Vaja6Strukture: phony || CMakeFiles/Vaja6Strukture.dir
 
-build CMakeFiles/Vaja6Strukture.dir/Vaja6Strukture.cpp.obj: CXX_COMPILER__Vaja6Strukture_Release D$:/Coding/Vaja6Strukture/Vaja6Strukture.cpp || cmake_object_order_depends_target_Vaja6Strukture
+build CMakeFiles/Vaja6Strukture.dir/Vaja6Strukture.cpp.obj: CXX_COMPILER__Vaja6Strukture_Release D$:/Coding/Podatkovne$ Strukture/Vaja6Strukture/Vaja6Strukture.cpp || cmake_object_order_depends_target_Vaja6Strukture
   DEP_FILE = CMakeFiles\Vaja6Strukture.dir\Vaja6Strukture.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -std=gnu++14
   OBJECT_DIR = CMakeFiles\Vaja6Strukture.dir
@@ -81,7 +81,7 @@ build Vaja6Strukture.exe: CXX_EXECUTABLE_LINKER__Vaja6Strukture_Release CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\Vaja6Strukture\cmake-build-release && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Podatkovne Strukture\Vaja6Strukture\cmake-build-release" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\Vaja6Strukture\cmake-build-release && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\Vaja6Strukture -BD:\Coding\Vaja6Strukture\cmake-build-release"
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Podatkovne Strukture\Vaja6Strukture\cmake-build-release" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Coding\Podatkovne Strukture\Vaja6Strukture" -B"D:\Coding\Podatkovne Strukture\Vaja6Strukture\cmake-build-release""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build Vaja6Strukture: phony Vaja6Strukture.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Coding/Vaja6Strukture/cmake-build-release
+# Folder: D:/Coding/Podatkovne Strukture/Vaja6Strukture/cmake-build-release
 
 build all: phony Vaja6Strukture.exe
 
