@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Coding/SimonPlazar0801/cmake-build-debug/
+cmake_ninja_workdir = D$:/Coding/Programiranje$ II/SimonPlazar0801/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target SimonPlazar0801Test
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Coding/SimonPlazar0801/cmake-build-debug/
 
 build cmake_object_order_depends_target_SimonPlazar0801Test: phony || CMakeFiles/SimonPlazar0801Test.dir
 
-build CMakeFiles/SimonPlazar0801Test.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0801Test_Debug D$:/Coding/SimonPlazar0801/main.cpp || cmake_object_order_depends_target_SimonPlazar0801Test
+build CMakeFiles/SimonPlazar0801Test.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0801Test_Debug D$:/Coding/Programiranje$ II/SimonPlazar0801/main.cpp || cmake_object_order_depends_target_SimonPlazar0801Test
   DEP_FILE = CMakeFiles\SimonPlazar0801Test.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++20
   OBJECT_DIR = CMakeFiles\SimonPlazar0801Test.dir
@@ -81,7 +81,7 @@ build SimonPlazar0801Test.exe: CXX_EXECUTABLE_LINKER__SimonPlazar0801Test_Debug 
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\SimonPlazar0801\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Programiranje II\SimonPlazar0801\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\SimonPlazar0801\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\SimonPlazar0801 -BD:\Coding\SimonPlazar0801\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Programiranje II\SimonPlazar0801\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Coding\Programiranje II\SimonPlazar0801" -B"D:\Coding\Programiranje II\SimonPlazar0801\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +110,7 @@ build SimonPlazar0801Test: phony SimonPlazar0801Test.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Coding/SimonPlazar0801/cmake-build-debug
+# Folder: D:/Coding/Programiranje II/SimonPlazar0801/cmake-build-debug
 
 build all: phony SimonPlazar0801Test.exe
 

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Coding/SimonPlazar0402/cmake-build-debug/
+cmake_ninja_workdir = D$:/Coding/Programiranje$ II/SimonPlazar0402/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target SimonPlazar0402
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Coding/SimonPlazar0402/cmake-build-debug/
 
 build cmake_object_order_depends_target_SimonPlazar0402: phony || CMakeFiles/SimonPlazar0402.dir
 
-build CMakeFiles/SimonPlazar0402.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/SimonPlazar0402/main.cpp || cmake_object_order_depends_target_SimonPlazar0402
+build CMakeFiles/SimonPlazar0402.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/Programiranje$ II/SimonPlazar0402/main.cpp || cmake_object_order_depends_target_SimonPlazar0402
   DEP_FILE = CMakeFiles\SimonPlazar0402.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0402.dir
@@ -57,7 +57,7 @@ build CMakeFiles/SimonPlazar0402.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0402
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0402.dir\
   TARGET_PDB = SimonPlazar0402.pdb
 
-build CMakeFiles/SimonPlazar0402.dir/Person.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/SimonPlazar0402/Person.cpp || cmake_object_order_depends_target_SimonPlazar0402
+build CMakeFiles/SimonPlazar0402.dir/Person.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/Programiranje$ II/SimonPlazar0402/Person.cpp || cmake_object_order_depends_target_SimonPlazar0402
   DEP_FILE = CMakeFiles\SimonPlazar0402.dir\Person.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0402.dir
@@ -65,7 +65,7 @@ build CMakeFiles/SimonPlazar0402.dir/Person.cpp.obj: CXX_COMPILER__SimonPlazar04
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0402.dir\
   TARGET_PDB = SimonPlazar0402.pdb
 
-build CMakeFiles/SimonPlazar0402.dir/Event.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/SimonPlazar0402/Event.cpp || cmake_object_order_depends_target_SimonPlazar0402
+build CMakeFiles/SimonPlazar0402.dir/Event.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/Programiranje$ II/SimonPlazar0402/Event.cpp || cmake_object_order_depends_target_SimonPlazar0402
   DEP_FILE = CMakeFiles\SimonPlazar0402.dir\Event.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0402.dir
@@ -73,7 +73,7 @@ build CMakeFiles/SimonPlazar0402.dir/Event.cpp.obj: CXX_COMPILER__SimonPlazar040
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0402.dir\
   TARGET_PDB = SimonPlazar0402.pdb
 
-build CMakeFiles/SimonPlazar0402.dir/Date.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/SimonPlazar0402/Date.cpp || cmake_object_order_depends_target_SimonPlazar0402
+build CMakeFiles/SimonPlazar0402.dir/Date.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/Programiranje$ II/SimonPlazar0402/Date.cpp || cmake_object_order_depends_target_SimonPlazar0402
   DEP_FILE = CMakeFiles\SimonPlazar0402.dir\Date.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0402.dir
@@ -81,7 +81,7 @@ build CMakeFiles/SimonPlazar0402.dir/Date.cpp.obj: CXX_COMPILER__SimonPlazar0402
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0402.dir\
   TARGET_PDB = SimonPlazar0402.pdb
 
-build CMakeFiles/SimonPlazar0402.dir/Conference.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/SimonPlazar0402/Conference.cpp || cmake_object_order_depends_target_SimonPlazar0402
+build CMakeFiles/SimonPlazar0402.dir/Conference.cpp.obj: CXX_COMPILER__SimonPlazar0402_Debug D$:/Coding/Programiranje$ II/SimonPlazar0402/Conference.cpp || cmake_object_order_depends_target_SimonPlazar0402
   DEP_FILE = CMakeFiles\SimonPlazar0402.dir\Conference.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0402.dir
@@ -113,7 +113,7 @@ build SimonPlazar0402.exe: CXX_EXECUTABLE_LINKER__SimonPlazar0402_Debug CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\SimonPlazar0402\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Programiranje II\SimonPlazar0402\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -124,7 +124,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\SimonPlazar0402\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\SimonPlazar0402 -BD:\Coding\SimonPlazar0402\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Programiranje II\SimonPlazar0402\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Coding\Programiranje II\SimonPlazar0402" -B"D:\Coding\Programiranje II\SimonPlazar0402\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -142,7 +142,7 @@ build SimonPlazar0402: phony SimonPlazar0402.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Coding/SimonPlazar0402/cmake-build-debug
+# Folder: D:/Coding/Programiranje II/SimonPlazar0402/cmake-build-debug
 
 build all: phony SimonPlazar0402.exe
 

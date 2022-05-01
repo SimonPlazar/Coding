@@ -1,4 +1,4 @@
-# Install script for directory: D:/Coding/SimonPlazar0101
+# Install script for directory: D:/Coding/Programiranje II/SimonPlazar0101
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/Coding/SimonPlazar0101/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Coding/Programiranje II/SimonPlazar0101/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

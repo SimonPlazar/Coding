@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Coding/SimonPlazar0501/cmake-build-debug/
+cmake_ninja_workdir = D$:/Coding/Programiranje$ II/SimonPlazar0501/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target SimonPlazar0501
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = D$:/Coding/SimonPlazar0501/cmake-build-debug/
 
 build cmake_object_order_depends_target_SimonPlazar0501: phony || CMakeFiles/SimonPlazar0501.dir
 
-build CMakeFiles/SimonPlazar0501.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/SimonPlazar0501/main.cpp || cmake_object_order_depends_target_SimonPlazar0501
+build CMakeFiles/SimonPlazar0501.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/Programiranje$ II/SimonPlazar0501/main.cpp || cmake_object_order_depends_target_SimonPlazar0501
   DEP_FILE = CMakeFiles\SimonPlazar0501.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0501.dir
@@ -57,7 +57,7 @@ build CMakeFiles/SimonPlazar0501.dir/main.cpp.obj: CXX_COMPILER__SimonPlazar0501
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0501.dir\
   TARGET_PDB = SimonPlazar0501.pdb
 
-build CMakeFiles/SimonPlazar0501.dir/Artwork.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/SimonPlazar0501/Artwork.cpp || cmake_object_order_depends_target_SimonPlazar0501
+build CMakeFiles/SimonPlazar0501.dir/Artwork.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/Programiranje$ II/SimonPlazar0501/Artwork.cpp || cmake_object_order_depends_target_SimonPlazar0501
   DEP_FILE = CMakeFiles\SimonPlazar0501.dir\Artwork.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0501.dir
@@ -65,7 +65,7 @@ build CMakeFiles/SimonPlazar0501.dir/Artwork.cpp.obj: CXX_COMPILER__SimonPlazar0
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0501.dir\
   TARGET_PDB = SimonPlazar0501.pdb
 
-build CMakeFiles/SimonPlazar0501.dir/Date.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/SimonPlazar0501/Date.cpp || cmake_object_order_depends_target_SimonPlazar0501
+build CMakeFiles/SimonPlazar0501.dir/Date.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/Programiranje$ II/SimonPlazar0501/Date.cpp || cmake_object_order_depends_target_SimonPlazar0501
   DEP_FILE = CMakeFiles\SimonPlazar0501.dir\Date.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0501.dir
@@ -73,7 +73,7 @@ build CMakeFiles/SimonPlazar0501.dir/Date.cpp.obj: CXX_COMPILER__SimonPlazar0501
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0501.dir\
   TARGET_PDB = SimonPlazar0501.pdb
 
-build CMakeFiles/SimonPlazar0501.dir/Artist.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/SimonPlazar0501/Artist.cpp || cmake_object_order_depends_target_SimonPlazar0501
+build CMakeFiles/SimonPlazar0501.dir/Artist.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/Programiranje$ II/SimonPlazar0501/Artist.cpp || cmake_object_order_depends_target_SimonPlazar0501
   DEP_FILE = CMakeFiles\SimonPlazar0501.dir\Artist.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0501.dir
@@ -81,7 +81,7 @@ build CMakeFiles/SimonPlazar0501.dir/Artist.cpp.obj: CXX_COMPILER__SimonPlazar05
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0501.dir\
   TARGET_PDB = SimonPlazar0501.pdb
 
-build CMakeFiles/SimonPlazar0501.dir/Gallery.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/SimonPlazar0501/Gallery.cpp || cmake_object_order_depends_target_SimonPlazar0501
+build CMakeFiles/SimonPlazar0501.dir/Gallery.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/Programiranje$ II/SimonPlazar0501/Gallery.cpp || cmake_object_order_depends_target_SimonPlazar0501
   DEP_FILE = CMakeFiles\SimonPlazar0501.dir\Gallery.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0501.dir
@@ -89,7 +89,7 @@ build CMakeFiles/SimonPlazar0501.dir/Gallery.cpp.obj: CXX_COMPILER__SimonPlazar0
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0501.dir\
   TARGET_PDB = SimonPlazar0501.pdb
 
-build CMakeFiles/SimonPlazar0501.dir/Painting.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/SimonPlazar0501/Painting.cpp || cmake_object_order_depends_target_SimonPlazar0501
+build CMakeFiles/SimonPlazar0501.dir/Painting.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/Programiranje$ II/SimonPlazar0501/Painting.cpp || cmake_object_order_depends_target_SimonPlazar0501
   DEP_FILE = CMakeFiles\SimonPlazar0501.dir\Painting.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0501.dir
@@ -97,7 +97,7 @@ build CMakeFiles/SimonPlazar0501.dir/Painting.cpp.obj: CXX_COMPILER__SimonPlazar
   TARGET_COMPILE_PDB = CMakeFiles\SimonPlazar0501.dir\
   TARGET_PDB = SimonPlazar0501.pdb
 
-build CMakeFiles/SimonPlazar0501.dir/Sculpture.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/SimonPlazar0501/Sculpture.cpp || cmake_object_order_depends_target_SimonPlazar0501
+build CMakeFiles/SimonPlazar0501.dir/Sculpture.cpp.obj: CXX_COMPILER__SimonPlazar0501_Debug D$:/Coding/Programiranje$ II/SimonPlazar0501/Sculpture.cpp || cmake_object_order_depends_target_SimonPlazar0501
   DEP_FILE = CMakeFiles\SimonPlazar0501.dir\Sculpture.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\SimonPlazar0501.dir
@@ -129,7 +129,7 @@ build SimonPlazar0501.exe: CXX_EXECUTABLE_LINKER__SimonPlazar0501_Debug CMakeFil
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\SimonPlazar0501\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Programiranje II\SimonPlazar0501\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -140,7 +140,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Coding\SimonPlazar0501\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SD:\Coding\SimonPlazar0501 -BD:\Coding\SimonPlazar0501\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D "D:\Coding\Programiranje II\SimonPlazar0501\cmake-build-debug" && "C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S"D:\Coding\Programiranje II\SimonPlazar0501" -B"D:\Coding\Programiranje II\SimonPlazar0501\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -158,7 +158,7 @@ build SimonPlazar0501: phony SimonPlazar0501.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Coding/SimonPlazar0501/cmake-build-debug
+# Folder: D:/Coding/Programiranje II/SimonPlazar0501/cmake-build-debug
 
 build all: phony SimonPlazar0501.exe
 
