@@ -28,9 +28,24 @@ int main() {
     cout << endl;
 
     SparseMatrix2D bigIntMatrix(10, 10, 2);
+    bigIntMatrix.set(0, 0, 9);
+    bigIntMatrix.set(1, 0, 9);
+    bigIntMatrix.set(2, 3, 7);
     bigIntMatrix.set(5, 5, 8);
     bigIntMatrix.set(2, 3, 7);
     bigIntMatrix.set(2, 2, 4);
+    bigIntMatrix.set(10, 12, 1); //izven
+    bigIntMatrix.set(2, 8, 7);
+
+    for (int i = 0; i < bigIntMatrix.getSizeX(); i++) {
+        for (int j = 0; j < bigIntMatrix.getSizeY(); j++) {
+            cout << bigIntMatrix.at(i, j).getValue() << (j != bigIntMatrix.getSizeY() - 1 ? " ; " : "");
+        }
+        cout << endl;
+    }
+
+    cout << endl;
+    bigIntMatrix.clearRow(2);
 
     for (int i = 0; i < bigIntMatrix.getSizeX(); i++) {
         for (int j = 0; j < bigIntMatrix.getSizeY(); j++) {

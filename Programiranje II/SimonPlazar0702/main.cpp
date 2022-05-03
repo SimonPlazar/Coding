@@ -3,15 +3,17 @@
 #include <utility>
 #include "PrintUtility.h"
 
-class Oseba{
+class Oseba {
 private:
     std::string ime;
     std::string priimek;
     std::string opis;
 public:
-    Oseba(std::string ime, std::string priimek, std::string opis) : ime(std::move(ime)), priimek(std::move(priimek)), opis(std::move(opis)){
+    Oseba(std::string ime, std::string priimek, std::string opis) : ime(std::move(ime)), priimek(std::move(priimek)),
+                                                                    opis(std::move(opis)) {
     }
-    std::string toString() const{
+
+    std::string toString() const {
         return ime + " " + priimek + " " + opis;
     }
 };
@@ -43,8 +45,8 @@ std::vector<std::vector<T>> slice(std::vector<T> vec) {
 
 void switchBannedWords(std::string &string, const std::vector<std::string> &prepovedaneBesede) {
     std::string censored;
-    for (const auto & i : prepovedaneBesede) {
-        while (string.find(i) != std::string::npos){
+    for (const auto &i: prepovedaneBesede) {
+        while (string.find(i) != std::string::npos) {
             censored = "";
             for (int j = 0; j < i.length(); ++j) {
                 censored += '*';
@@ -67,10 +69,10 @@ std::string toSafeString(std::vector<T> objekti, const std::vector<std::string> 
     return string;
 }
 
-bool checkPalindrom(const std::string &string){
-    int size = (int)string.length();
-    for (int i = 0; i < size/2; ++i) {
-        if(string[i] != string[size-i-1])
+bool checkPalindrom(const std::string &string) {
+    int size = (int) string.length();
+    for (int i = 0; i < size / 2; ++i) {
+        if (string[i] != string[size - i - 1])
             return false;
     }
     return true;
@@ -98,35 +100,30 @@ std::vector<T> mergeVec(const std::vector<std::vector<T>> &vec) {
     return output;
 }
 
-std::string getColoredString(const ColorCode &color, const std::string &str) {
-    std::stringstream ss;
+template<typename T>
+std::vector<unsigned int> countWords(std::vector<T> objekti, std::vector<std::string> besede) {
+    std::string string;
+    std::vector<unsigned int> count;
+    std::string beseda;
 
-    ss << "\033[" << (int) color << "m" << str << "\033[0m";
-
-    return ss.str();
-}
-
-void getSelectedWordsInColor(ColorCode color, std::string &output, const std::vector<std::string>& strings){
-
-}
-
-template<ColorCode color = ColorCode::Red, typename T>
-void printSelectedWordsInColor(std::vector<T> vec, const std::vector<std::string>& strings){
-    std::string output;
-
-    for (int i = 0; i < vec.size(); ++i) {
-        output += vec[i].toString();
+    for (int i = 0; i < besede.size(); ++i) {
+        count.push_back(0);
     }
 
-    for (const auto & i : strings) {
-        if (output.find(i) != std::string::npos){
-            output.replace(output.find(i), i.length(), getColoredString(color, i));
+    for (int i = 0; i < objekti.size(); ++i) {
+        string += objekti[i].toString() + " ";
+    }
+
+    std::istringstream ss(string);
+
+    while (ss>>beseda){
+        for (int i = 0; i < besede.size(); ++i) {
+            if(besede[i] == beseda)
+                count[i]++;
         }
     }
 
-    getSelectedWordsInColor(color, output, strings);
-
-    std::cout<<output<<std::endl;
+    return count;
 }
 
 int main() {
@@ -141,11 +138,11 @@ int main() {
 
     std::vector<std::vector<std::string>> vecVec = slice<2>(vec1);
 
-    for (auto & i : vecVec) {
-        for (auto & j : i) {
-            std::cout<<j<<" ";
+    for (auto &i: vecVec) {
+        for (auto &j: i) {
+            std::cout << j << " ";
         }
-        std::cout<<std::endl;
+        std::cout << std::endl;
     }
 
 
@@ -154,17 +151,30 @@ int main() {
 
     std::string str = "danes je lep dan, abc ni lepa beseda";
 
-    std::cout<<toSafeString(osebaA, vec)<<std::endl;
+    std::cout << toSafeString(osebaA, vec) << std::endl;
 
     std::vector<std::string> vector = mergeVec(vecVec);
 
-    for (auto & i : vector) {
-        std::cout<<i<<std::endl;
+    for (auto &i: vector) {
+        std::cout << i << std::endl;
     }
 
-    std::cout<<isPalindrome(osebaA)<<std::endl;
+    std::cout << isPalindrome(osebaA) << std::endl;
 
-    printSelectedWordsInColor(osebaA, vec);
+    Oseba prva("danes", "je", "lep dan abc abc ni lepa beseda");
+    Oseba druga("danes", "ni", "lep dan dan dan");
+
+    std::vector<Oseba> osebe{prva, druga};
+
+    std::vector<std::string> besede{"abc", "dan"};
+
+    std::cout << std::endl;
+
+    std::vector<unsigned int> count = countWords(osebe, besede);
+
+    for (unsigned int i : count) {
+        std::cout << i << std::endl;
+    }
 
     return 0;
 }

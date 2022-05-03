@@ -25,6 +25,8 @@ public:
     unsigned int getSizeX() const;
 
     unsigned int getSizeY() const;
+
+    void clearRow(unsigned int row);
 };
 
 template<typename T>
@@ -35,6 +37,11 @@ SparseMatrix2D<T>::SparseMatrix2D(unsigned int sizeX, unsigned int sizeY, T defa
 
 template<typename T>
 void SparseMatrix2D<T>::set(unsigned int x, unsigned int y, T value) {
+    if(x >= sizeX || y >= sizeY){
+        std::cout<<"Izven matrice!\n";
+        return;
+    }
+
     for (int i = 0; i < elements.size(); ++i) {
         if (elements[i].getX() == x && elements[i].getY() == y) {
             elements[i].setValue(value);
@@ -60,6 +67,16 @@ unsigned int SparseMatrix2D<T>::getSizeX() const {
 template<typename T>
 unsigned int SparseMatrix2D<T>::getSizeY() const {
     return sizeY;
+}
+
+template<typename T>
+void SparseMatrix2D<T>::clearRow(unsigned int row) {
+    for (int i = 0; i < elements.size(); ++i) {
+        if(elements[i].getX() == row){
+            elements.erase(elements.begin()+i);
+            i--;
+        }
+    }
 }
 
 

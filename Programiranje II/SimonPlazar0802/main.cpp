@@ -25,5 +25,17 @@ int main() {
     for(int i=0; i<list.getSize(); i++)
         std::cout << list.at(i) << " ";
 
+    list.removeAt(3);
+
+    std::cout << std::endl;
+
+    list.print();
+
+    list.removeAt(1);
+
+    std::cout << std::endl;
+
+    list.print();
+
     return 0;
 }

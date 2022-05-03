@@ -23,11 +23,13 @@ public:
 
     T at(unsigned int index) const;
 
-    Node<T>* getHead() const;
+    Node<T> *getHead() const;
 
-    void deleteList(Node<T>* node);
+    void deleteList(Node<T> *node);
 
     void print() const;
+
+    void removeAt(unsigned int index);
 
     ~LinkedList();
 };
@@ -40,7 +42,7 @@ bool LinkedList<T>::isEmpty() const {
 
 template<typename T>
 unsigned int LinkedList<T>::getSize() const {
-    Node<T>* current(head);
+    Node<T> *current(head);
 
     unsigned int i;
     for (i = 0; current != nullptr; ++i) {
@@ -51,12 +53,12 @@ unsigned int LinkedList<T>::getSize() const {
 
 template<typename T>
 void LinkedList<T>::add(T value) {
-    Node<T>* newNode = new Node(value);
+    Node<T> *newNode = new Node(value);
 
-    if(head == nullptr)
+    if (head == nullptr)
         head = newNode;
-    else{
-        Node<T>* tmp = head;
+    else {
+        Node<T> *tmp = head;
         while (tmp->getNext() != nullptr) {
             tmp = tmp->getNext();
         }
@@ -66,9 +68,9 @@ void LinkedList<T>::add(T value) {
 
 template<typename T>
 T LinkedList<T>::at(unsigned int index) const {
-    if(index > getSize()) return T();
+    if (index > getSize()) return T();
 
-    Node<T>* current(head);
+    Node<T> *current(head);
 
     for (int i = 0; i < index; ++i) {
         current = current->getNext();
@@ -87,8 +89,8 @@ Node<T> *LinkedList<T>::getHead() const {
 }
 
 template<typename T>
-void LinkedList<T>::deleteList(Node<T>* node) {
-    if(node == nullptr) return;
+void LinkedList<T>::deleteList(Node<T> *node) {
+    if (node == nullptr) return;
     deleteList(node->getNext());
     delete node;
 }
@@ -100,12 +102,37 @@ LinkedList<T>::LinkedList() {
 
 template<typename T>
 void LinkedList<T>::print() const {
-    Node<T>* tmp = head;
+    Node<T> *tmp = head;
 
-    while (tmp != nullptr){
-        std::cout<<tmp->getValue()<<" ";
+    while (tmp != nullptr) {
+        std::cout << tmp->getValue() << " ";
         tmp = tmp->getNext();
     }
+}
+
+template<typename T>
+void LinkedList<T>::removeAt(unsigned int index) {
+    unsigned int size = getSize();
+    if (size <= index) return;
+
+    Node<T> *tmp = head;
+
+    if (index == 0) {
+        //prvi element
+        head = head->getNext();
+        free(tmp);
+        return;
+    }
+
+    //element pred indexom
+    for (int i = 0; tmp != nullptr && i < index - 1; i++)
+        tmp = tmp->getNext();
+
+    Node<T> *next = tmp->getNext()->getNext();
+
+    free(tmp->getNext());
+
+    tmp->setNext(next);
 }
 
 #endif //SIMONPLAZAR0802_LINKEDLIST_H
