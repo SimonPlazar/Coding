@@ -194,8 +194,8 @@ int main() {
     int value2 = 0;
     Graph graf;
 
-    std::chrono::steady_clock::time_point start;
-    std::chrono::steady_clock::time_point end;
+    chrono::steady_clock::time_point start;
+    chrono::steady_clock::time_point end;
 
     do {
         cout << "\nIskanje v globino in sirino\n"
@@ -238,15 +238,15 @@ int main() {
                     cin >> value2;
                 }
 
-                start = std::chrono::steady_clock::now();
+                start = chrono::steady_clock::now();
                 graf.depthSearch(graf.getVertices()[value1 - 1], graf.getVertices()[value2 - 1]);
-                end = std::chrono::steady_clock::now();
+                end = chrono::steady_clock::now();
 
                 graf.printVertices();
 
                 graf.printPath(graf.getVertices()[value1 - 1], graf.getVertices()[value2 - 1]);
 
-                cout << "\nCas: " << chrono::duration_cast<std::chrono::nanoseconds>(end - start).count() << " ns"
+                cout << "\nCas: " << chrono::duration_cast<chrono::nanoseconds>(end - start).count() << " ns"
                      << endl;
                 break;
             case 3:
