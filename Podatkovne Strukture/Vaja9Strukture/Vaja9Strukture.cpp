@@ -53,6 +53,21 @@ void hitroUredi(vector<povezava *> &arr, int dno, int vrh) {
     }
 }
 
+bool checkIfUgodnaPovezava(const vector<povezava *> &vec, povezava *povezava) {
+    for (auto i: vec) {
+        //povezaza s samim sabo
+        if (povezava->p == povezava->q)
+            return false;
+        //enaka povezava obstaja
+        else if(i->p == povezava->q && i->q == povezava->p)
+            return false;
+        //obratna povezava obstaja
+        else if (i->p == povezava->p && i->q == povezava->q)
+            return false;
+    }
+    return true;
+}
+
 default_random_engine generator;
 
 class Tree {
@@ -96,6 +111,8 @@ public:
     }
 
     void randomPovezave(int n) {
+        int cost = 0, p = 0, q = 0;
+
         uniform_int_distribution<int> randomVertice(1, n);
         uniform_int_distribution<int> randomCost(1, 20);
         uniform_int_distribution<int> randomEdgesCount(1, n * n);
@@ -111,11 +128,19 @@ public:
         }
 
         for (int i = 0; i < edgesCount; ++i) {
-            seznam.push_back(new povezava(
-                    (int) randomVertice(generator),
-                    (int) randomVertice(generator),
-                    (int) randomCost(generator))
-            );
+            p = (int) randomVertice(generator);
+            q = (int) randomVertice(generator);
+            cost = (int) randomCost(generator);
+
+            auto tmp = new povezava(p, q, cost);
+
+            //ni ugodna povezava
+            if (!checkIfUgodnaPovezava(seznam, tmp)) {
+                free(tmp);
+                continue;
+            }
+
+            seznam.push_back(tmp);
         }
     }
 
@@ -137,7 +162,7 @@ public:
             } else if (((vrMN1 != 0) && (vrMN2 != 0)) && (vrMN1 != vrMN2)) {
                 //oba sta v mnozici in mnozici nista enaki
                 output.push_back(povezav);
-                for (int & i : seznamMnozic) {
+                for (int &i: seznamMnozic) {
                     if (i == vrMN2)
                         i = vrMN1;
                 }

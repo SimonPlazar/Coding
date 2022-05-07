@@ -62,7 +62,7 @@ public:
 
     void readFromFile() {
         int point1, point2, cost, verticesCount, edgesCount;
-        ifstream f("graf.txt");
+        ifstream f("grafBig.txt");
         f >> verticesCount;
         f >> edgesCount;
 
@@ -86,7 +86,7 @@ public:
         }
 
         //izpis
-        printMatrix();
+        //printMatrix();
     }
 
     void getNeighbours(vector<node *> &neighbours, node *point) {
