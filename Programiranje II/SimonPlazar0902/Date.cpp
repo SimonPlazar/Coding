@@ -71,22 +71,11 @@ Date &Date::operator++() {
 }
 
 Date Date::operator++(int dummy) {
-    int months[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    Date old = *this;
 
-    if (day + 1 > months[month]) {
-        //gre v naslednji mesec
-        day = 1;
-        if (month == 12) {
-            month = 1;
-        } else {
-            month++;
-        }
-    } else {
-        //ne gre v naslednji mesec
-        day++;
-    }
+    ++(*this);
 
-    return *this;
+    return old;
 }
 
 

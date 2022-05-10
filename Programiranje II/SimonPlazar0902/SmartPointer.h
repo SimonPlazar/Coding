@@ -35,8 +35,11 @@ SmartPointer<T>::SmartPointer(T *pointer) : pointer(pointer), counter(new Refere
 
 template<typename T>
 SmartPointer<T>::~SmartPointer() {
-    if (--(*counter) == 0)
+    if (--(*counter) == 0){
         free(pointer);
+        free(counter);
+    }
+
 }
 
 template<typename T>
@@ -56,8 +59,8 @@ SmartPointer<T> &SmartPointer<T>::operator=(const SmartPointer<T> &other) {
 
     //ce idini kaze na ta objekt (izbrise ga)
     if (--(*counter) == 0) {
-        delete pointer;
-        delete counter;
+        free(pointer);
+        free(counter);
     }
 
     //prekopira vrednosti
@@ -75,8 +78,8 @@ SmartPointer<T>::SmartPointer(const SmartPointer &other) {
 
     //ce idini kaze na ta objekt (izbrise ga)
     if (--(*counter) == 0) {
-        delete pointer;
-        delete counter;
+        free(pointer);
+        free(counter);
     }
 
     //prekopira vrednosti
