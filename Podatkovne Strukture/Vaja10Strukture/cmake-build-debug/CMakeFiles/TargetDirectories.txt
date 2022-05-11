@@ -1,0 +1,3 @@
+D:/Coding/Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/CMakeFiles/Vaja10Strukture.dir
+D:/Coding/Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Coding/Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/CMakeFiles/rebuild_cache.dir
