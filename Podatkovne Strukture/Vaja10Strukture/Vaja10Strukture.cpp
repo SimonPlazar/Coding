@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <random>
 
 using namespace std;
 
@@ -27,25 +28,41 @@ struct Povezava {
 
     Povezava(unsigned int u, unsigned int v, unsigned int cena) : u(u), v(v), cena(cena) {}
 
-    void print() {
+    void print() const{
         cout << endl << u + 1 << " -" << cena << "-> " << v + 1 << endl;
     }
 };
 
+bool checkIfUgodnaPovezava(const vector<Povezava *> &vec, Povezava *povezava) {
+    for (auto i: vec) {
+        //povezaza s samim sabo
+        if (povezava->v == povezava->u )
+            return false;
+            //enaka povezava obstaja
+        else if(i->v == povezava->u && i->u == povezava->v)
+            return false;
+            //obratna povezava obstaja
+        else if (i->v == povezava->v && i->u == povezava->u)
+            return false;
+    }
+    return true;
+}
+
 class Graph {
 private:
-    vector<vector<int>> matrix;
+    vector<vector<unsigned int>> matrix;
     vector<Povezava *> seznamPovezav;
     vector<Vozlisce *> seznamVozlisc;
-    int verticesCount = 0;
+    unsigned int verticesCount = 0;
     unsigned int start = 0;
+    default_random_engine generator;
 
 public:
     const vector<Vozlisce *> &getSeznamVozlisc() const {
         return seznamVozlisc;
     }
 
-    int getVerticesCount() const {
+    unsigned int getVerticesCount() const {
         return verticesCount;
     }
 
@@ -56,7 +73,7 @@ public:
     void printMatrix() {
         cout << endl;
         for (auto &row: matrix) {
-            for (int column: row) {
+            for (unsigned int column: row) {
                 cout << column << " ";
             }
             cout << endl;
@@ -84,6 +101,54 @@ public:
                     seznamPovezav.push_back(new Povezava(i, j, verticeCost));
                 verticeCost = 0;
             }
+        }
+    }
+
+    void randomGraf(unsigned int stVozlisc, unsigned int costMin, unsigned int costMax) {
+        unsigned int cost, p, q, edgesCount;
+        Povezava* tmp;
+
+        uniform_int_distribution<unsigned int> randomVertice(0, stVozlisc-1);
+        uniform_int_distribution<unsigned int> randomCost(costMin, costMax);
+        uniform_int_distribution<unsigned int> randomEdgesCount(2*stVozlisc, stVozlisc * stVozlisc);
+
+        verticesCount = stVozlisc;
+
+        edgesCount = (unsigned int) randomEdgesCount(generator);
+
+
+        for (int i = 0; i < edgesCount; ++i) {
+            p = (int) randomVertice(generator);
+            q = (int) randomVertice(generator);
+            cost = (int) randomCost(generator);
+
+            tmp = new Povezava(p, q, cost);
+
+            //ni ugodna povezava
+            while (!checkIfUgodnaPovezava(seznamPovezav, tmp)){
+                p = (int) randomVertice(generator);
+                q = (int) randomVertice(generator);
+                cost = (int) randomCost(generator);
+
+                tmp = new Povezava(p, q, cost);
+            }
+
+            seznamPovezav.push_back(tmp);
+        }
+
+        matrix.clear();
+
+        //za posamezno vrstico
+        for (int i = 0; i < verticesCount; ++i) {
+            matrix.emplace_back();
+            //za posamezno vozljisce v vrstici
+            for (int j = 0; j < verticesCount; ++j) {
+                matrix[i].push_back(0);
+            }
+        }
+
+        for (auto & i : seznamPovezav) {
+            matrix[i->u][i->v] = i->cena;
         }
     }
 
@@ -155,7 +220,7 @@ int main() {
     int stVozlisc = 0;
     int valA = 0;
     int valB = 0;
-    int count = 0;
+    int count;
 
     Graph graf;
 
@@ -188,7 +253,7 @@ int main() {
                 //rand graf
                 cout << "Podaj stevilo vozlisc:";
                 cin >> stVozlisc;
-                while (cin.fail()) {
+                while (cin.fail() || stVozlisc > 1500 || stVozlisc < 1) {
                     count++;
                     if (count >= 3) {
                         goto err;
@@ -226,7 +291,7 @@ int main() {
                 }
 
                 //random
-
+                graf.randomGraf(stVozlisc, valA, valB);
                 break;
             case 3:
                 //algoritem
@@ -266,7 +331,7 @@ int main() {
                 }
 
                 graf.printPath(valA - 1);
-                cout << "\nCena poti: " << graf.getSeznamVozlisc()[valA-1]->cena_poti<<endl;
+                cout << "\nCena poti: " << graf.getSeznamVozlisc()[valA - 1]->cena_poti << endl;
                 break;
             case 6:
                 graf.printSeznamPovezav();

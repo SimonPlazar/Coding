@@ -1,7 +1,15 @@
 # ninja log v5
-2	281	6739829692271864	build.ninja	6a885550b2c851bd
-783	1181	6739821278522636	Vaja10Strukture.exe	8ef2aaa40903ae11
-2	782	6739821276728124	CMakeFiles/Vaja10Strukture.dir/main.cpp.obj	318f02f42eab3407
-1	278	6739829692271864	build.ninja	6a885550b2c851bd
+1	278	6740388015538301	build.ninja	6a885550b2c851bd
 0	833	6739829701230665	CMakeFiles/Vaja10Strukture.dir/Vaja10Strukture.cpp.obj	a0073e33519dd563
 833	1013	6739829703015663	Vaja10Strukture.exe	d0fdcd636a762c7f
+2	782	6739821276728124	CMakeFiles/Vaja10Strukture.dir/main.cpp.obj	318f02f42eab3407
+2	862	6740401527678394	CMakeFiles/Vaja10Strukture.dir/Vaja10Strukture.cpp.obj	a0073e33519dd563
+862	1148	6740401530511548	Vaja10Strukture.exe	d0fdcd636a762c7f
+3	915	6740482911223981	CMakeFiles/Vaja10Strukture.dir/Vaja10Strukture.cpp.obj	a0073e33519dd563
+915	1119	6740482913246053	Vaja10Strukture.exe	d0fdcd636a762c7f
+2	872	6740484062817586	CMakeFiles/Vaja10Strukture.dir/Vaja10Strukture.cpp.obj	a0073e33519dd563
+872	1069	6740484064696991	Vaja10Strukture.exe	d0fdcd636a762c7f
+2	832	6740486985132028	CMakeFiles/Vaja10Strukture.dir/Vaja10Strukture.cpp.obj	a0073e33519dd563
+832	1005	6740486986841177	Vaja10Strukture.exe	d0fdcd636a762c7f
+2	815	6740489177850246	CMakeFiles/Vaja10Strukture.dir/Vaja10Strukture.cpp.obj	a0073e33519dd563
+815	988	6740489179558677	Vaja10Strukture.exe	d0fdcd636a762c7f
