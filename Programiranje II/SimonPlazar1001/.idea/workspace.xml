@@ -11,16 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b44782-f985-4e9f-8fbe-3137c6d1281b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SimonPlazar1001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PrintIfPainting.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar0501/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar0501/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar0901/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar0901/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    <list default="true" id="98b44782-f985-4e9f-8fbe-3137c6d1281b" name="Changes" comment="Vaja 1001 Prog">
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/SimonPlazar1002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,18 +53,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="SimonPlazar1001" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimonPlazar1001" TARGET_NAME="SimonPlazar1001" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimonPlazar1001" RUN_TARGET_NAME="SimonPlazar1001">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimonPlazar1001" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimonPlazar1001" TARGET_NAME="SimonPlazar1001" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimonPlazar1001" RUN_TARGET_NAME="SimonPlazar1001">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -78,8 +79,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652612789324</updated>
-      <workItem from="1652612791034" duration="6574000" />
+      <workItem from="1652612791034" duration="6877000" />
+      <workItem from="1652623111417" duration="276000" />
     </task>
+    <task id="LOCAL-00001" summary="Vaja 1001 Prog">
+      <created>1652620830471</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652620830471</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +105,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Vaja 1001 Prog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vaja 1001 Prog" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
