@@ -2,22 +2,25 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Vaja10Strukture" targetName="Vaja10Strukture" />
+      <config projectName="SimonPlazar1001" targetName="SimonPlazar1001" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39b99ddf-c1a4-41e3-9383-b4006e7e2cdf" name="Changes" comment="Fix Vaja 10 Strukture">
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/SimonPlazar1001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+    <list default="true" id="98b44782-f985-4e9f-8fbe-3137c6d1281b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SimonPlazar1001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PrintIfPainting.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar0501/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar0501/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar0901/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar0901/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +42,8 @@
     <option name="majorVersion" value="2021" />
     <option name="minorVersion" value="3.3" />
   </component>
-  <component name="ProjectId" id="2914fWXDavsBD2391VfRGko6I5y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="29CMoVxvokMUbXVYEQVUNEG691n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -56,10 +57,14 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="structure.view.defaults.are.configured" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Vaja10Strukture" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Vaja10Strukture" TARGET_NAME="Vaja10Strukture" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Vaja10Strukture" RUN_TARGET_NAME="Vaja10Strukture">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimonPlazar1001" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SimonPlazar1001" TARGET_NAME="SimonPlazar1001" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SimonPlazar1001" RUN_TARGET_NAME="SimonPlazar1001">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -68,31 +73,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39b99ddf-c1a4-41e3-9383-b4006e7e2cdf" name="Changes" comment="" />
-      <created>1652267360562</created>
+      <changelist id="98b44782-f985-4e9f-8fbe-3137c6d1281b" name="Changes" comment="" />
+      <created>1652612789324</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652267360562</updated>
-      <workItem from="1652267362429" duration="12282000" />
-      <workItem from="1652335599080" duration="1385000" />
-      <workItem from="1652344932974" duration="960000" />
-      <workItem from="1652612681162" duration="249000" />
+      <updated>1652612789324</updated>
+      <workItem from="1652612791034" duration="6574000" />
     </task>
-    <task id="LOCAL-00001" summary="Vaja 10 Strukture">
-      <created>1652279891670</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652279891670</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Fix Vaja 10 Strukture">
-      <created>1652345827332</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1652345827332</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,10 +96,15 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Vaja 10 Strukture" />
-    <MESSAGE value="Fix Vaja 10 Strukture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Vaja 10 Strukture" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Gallery.cpp</url>
+          <line>77</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
