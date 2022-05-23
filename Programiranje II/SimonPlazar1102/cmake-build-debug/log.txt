@@ -1,0 +1,6 @@
+[ERROR] Unparseable date: 12.1o.2022.
+[WARN] Day > 32 on 44.13.2022
+[WARN] Month > 12 on 44.13.2022
+[WARN] 12.10/2022 written with '/' instead of '.'.
+[ERROR] Unparseable date: 6.12.199a.
+[ERROR] Could not reach 2students.csv.
