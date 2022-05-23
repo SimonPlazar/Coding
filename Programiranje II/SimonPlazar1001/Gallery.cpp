@@ -76,9 +76,9 @@ void Gallery::sort(bool (*c)(Artwork *, Artwork *)) {
 }
 
 Artwork *Gallery::find(bool (*c)(Artwork *)) {
-    auto it = std::find_if(artworks.begin(), artworks.end(), isRenaissanceArt);
+    auto it = std::find_if(artworks.begin(), artworks.end(), c);
 
-    if(it != artworks.end() && isRenaissanceArt(*it))
+    if(it != artworks.end() && c(*it))
         return *it;
     else
         return new Artwork();
