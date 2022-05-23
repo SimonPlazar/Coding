@@ -144,6 +144,9 @@ public:
         }
     }
 
+    // 1 2 3 4 5 6 7 8
+    // 2 4 2 2 3 2 3 4
+
     vector<povezava *> kruskal() {
         hitroUredi(seznam, 0, (int) seznam.size() - 1);
         vector<povezava *> output;

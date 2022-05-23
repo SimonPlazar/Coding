@@ -1,0 +1,6 @@
+100132321,Marko,Leska,3.4.2002,Smetanova cesta 1,2000 Maribor,Slovenija
+100432031,Simon,Novak,3.4.2001,Partizanska cesta 1,1000 Ljubljana,Slovenija
+100532028,Mitja,Novak,12.1.2001,Vrazova ulica 1,9000 Murska Sobota,Slovenija
+100212029,Milica,Radojev,3.4.2001,Malesa ulica 1,116417 Beograd,Srbija
+100456020,Ana,Gard,6.12.1999,Testna ulica 5,2000 Maribor,Slovenija
+100456021,Eva,Gard,0.0.0,Testna ulica 5,2000 Maribor,Slovenija

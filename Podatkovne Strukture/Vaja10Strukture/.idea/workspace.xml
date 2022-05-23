@@ -12,12 +12,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39b99ddf-c1a4-41e3-9383-b4006e7e2cdf" name="Changes" comment="Fix Vaja 10 Strukture">
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/SimonPlazar1001.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/.idea/Vaja11Strukture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4e416beb067cf0a76602.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-01b72a90d792f9235342.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-87d54d4623526787d3de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-20T13-02-19-0667.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/target-Vaja11Strukture-Debug-78362243bfb191aa50bd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-40a45361301b1337b711.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Vaja11Strukture/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-afcdc0262e76ac28e0dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-01T16-25-50-0862.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vaja9Strukture/Vaja9Strukture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaja9Strukture/Vaja9Strukture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Vaja9Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaja9Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +126,10 @@
       <workItem from="1652335599080" duration="1385000" />
       <workItem from="1652344932974" duration="960000" />
       <workItem from="1652612681162" duration="249000" />
+      <workItem from="1652915882640" duration="543000" />
+      <workItem from="1652921598555" duration="3640000" />
+      <workItem from="1653051656816" duration="2164000" />
+      <workItem from="1653258537176" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="Vaja 10 Strukture">
       <created>1652279891670</created>

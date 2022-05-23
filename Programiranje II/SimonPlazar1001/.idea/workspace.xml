@@ -12,15 +12,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98b44782-f985-4e9f-8fbe-3137c6d1281b" name="Changes" comment="Vaja 1001 Prog">
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/SimonPlazar1002.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/Vaja11Strukture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4e416beb067cf0a76602.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-01b72a90d792f9235342.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-87d54d4623526787d3de.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-20T13-02-19-0667.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/target-Vaja11Strukture-Debug-78362243bfb191aa50bd.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-40a45361301b1337b711.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/.idea/SimonPlazar1101.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/Address.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/Address.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-afcdc0262e76ac28e0dd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-01T16-25-50-0862.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja9Strukture/Vaja9Strukture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja9Strukture/Vaja9Strukture.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja9Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja9Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +120,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +131,8 @@
       <updated>1652612789324</updated>
       <workItem from="1652612791034" duration="6877000" />
       <workItem from="1652623111417" duration="276000" />
+      <workItem from="1653258547796" duration="62000" />
+      <workItem from="1653258618537" duration="524000" />
     </task>
     <task id="LOCAL-00001" summary="Vaja 1001 Prog">
       <created>1652620830471</created>
