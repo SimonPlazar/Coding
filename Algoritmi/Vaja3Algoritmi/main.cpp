@@ -206,7 +206,9 @@ void Encryption(const string &path) {
         cout << element.count;
     }
     */
+    //get tabela
     ShannonFano(elements, 0, elements.size() - 1);
+
     /*
     cout << endl;
     for (auto &element: elements) {
@@ -227,7 +229,7 @@ void Encryption(const string &path) {
     //table
 
     bw.writeInt(elements.size());
-    for (auto & element : elements) {
+    for (auto &element: elements) {
         bw.writeByte(element.character);
         bw.writeInt(element.count);
     }
@@ -235,46 +237,46 @@ void Encryption(const string &path) {
 
     //data encryption
 
-    while (br.f.peek() != EOF){
+    while (br.f.peek() != EOF) {
         tmp = br.readByte();
         charNum++;
 
         //find code of the read char
-        for (auto & element : elements){
-            if(element.character == tmp){
+        for (auto &element: elements) {
+            if (element.character == tmp) {
                 bits = element.codes;
                 break;
             }
         }
 
         //write bits
-        for (auto && bit : bits) {
+        for (auto &&bit: bits) {
             bw.writeBit(bit);
             bitsNum++;
         }
     }
 
     //if left over bits
-    if (bw.getK() != 0){
+    if (bw.getK() != 0) {
         for (int i = bw.getK(); i <= 7; ++i) {
             bw.writeBit(false);
             bitsNum++;
         }
     }
 
-    cout<<"Razmerje: "<<(float)((float)(charNum*8)/(float)bitsNum);
+    cout << "Razmerje: " << (float) ((float) (charNum * 8) / (float) bitsNum);
 }
 
-void Decryption(const string &path){
+void Decryption(const string &path) {
     BinReader br(path);
     BinWriter bw("decrypted.bin");
 
-    int charNum = br.readInt();
     vector<Element> elements;
     int count;
     char character;
     vector<bool> bits;
 
+    int charNum = br.readInt();
     for (int i = 0; i < charNum; ++i) {
         character = br.readByte();
         count = br.readInt();
@@ -300,11 +302,14 @@ void Decryption(const string &path){
         cout << endl;
     }
     */
-    //br.f.ignore(8);
-    while(br.f.good()){
+    //br.f.ignore(1);
+    //cout<<(char)br.readByte();
+    br.readByte();
+    //bits.push_back(br.readBit());
+    while (br.f.good()) {
         bits.push_back(br.readBit());
-        for (auto & element : elements) {
-            if(element.codes == bits){
+        for (auto &element: elements) {
+            if (element.codes == bits) {
                 bw.writeByte(element.character);
                 bits.clear();
             }
