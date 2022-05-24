@@ -4,26 +4,6 @@
 #include <algorithm>
 #include <iostream>
 
-bool ascendingYear(Artwork* i, Artwork* j){
-if(i->getYear() <= j->getYear()) return true;
-return false;
-}
-
-bool descandingYear(Artwork* i, Artwork* j){
-    if(i->getYear() >= j->getYear()) return true;
-    return false;
-}
-
-bool ascendingPrice(Artwork* i, Artwork* j){
-    if(i->getPrice() <= j->getPrice()) return true;
-    return false;
-}
-
-bool isRenaissanceArt(Artwork* a){
-    if(1400 < a->getYear() && a->getYear() < 1600 ) return true;
-    return false;
-}
-
 Gallery::Gallery(std::string name) : name(std::move(name)){
 }
 
@@ -81,9 +61,19 @@ Artwork *Gallery::find(bool (*c)(Artwork *)) {
     if(it != artworks.end() && c(*it))
         return *it;
     else
-        return new Artwork();
+        return nullptr;
 }
 
-void Gallery::printArtworks(PrintIfPainting i) {
+void Gallery::printArtworks(PrintIfPainting i) const{
     std::for_each(artworks.begin(), artworks.end(), i);
+}
+
+std::vector<Artwork *> Gallery::findAll(bool (*c)(Artwork *)) const {
+    std::vector<Artwork *> output;
+
+    for (auto artwork : artworks)
+        if (c(artwork))
+            output.push_back(artwork);
+
+    return output;
 }

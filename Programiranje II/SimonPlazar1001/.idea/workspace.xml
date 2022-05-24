@@ -11,14 +11,53 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98b44782-f985-4e9f-8fbe-3137c6d1281b" name="Changes" comment="Vaja 1001 Prog">
+    <list default="true" id="98b44782-f985-4e9f-8fbe-3137c6d1281b" name="Changes" comment="fix 1001">
+      <change afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/WrongDateException.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/WrongDateException.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/DN1Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/DN1Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/Resitve.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-680b61bc2cbba3ef00db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-16T19-27-02-0192.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/target-Vaja3Algoritmi-Debug-797193cf1c52ff7dc485.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gallery.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gallery.h" beforeDir="false" afterPath="$PROJECT_DIR$/Gallery.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/Gallery.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/Gallery.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/SimonPlazar1001.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SimonPlazar1001.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/Date.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/Student.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/Student.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3450834fdabe5b36d7c5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-23T01-15-16-0988.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.cmake/api/v1/reply/target-SimonPlazar1101-Debug-87dfdc5b0006deaaaf97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/Date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/Date.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/SimonPlazar1101.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/SimonPlazar1101.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimonPlazar1102/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1102/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimonPlazar1102/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1102/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
@@ -78,7 +117,9 @@
       <workItem from="1652623111417" duration="276000" />
       <workItem from="1653258547796" duration="62000" />
       <workItem from="1653258618537" duration="524000" />
-      <workItem from="1653337651135" duration="107000" />
+      <workItem from="1653337651135" duration="256000" />
+      <workItem from="1653355080123" duration="682000" />
+      <workItem from="1653386326560" duration="3330000" />
     </task>
     <task id="LOCAL-00001" summary="Vaja 1001 Prog">
       <created>1652620830471</created>
@@ -87,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652620830471</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fix 1001">
+      <created>1653337837430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653337837430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,14 +154,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Vaja 1001 Prog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vaja 1001 Prog" />
+    <MESSAGE value="fix 1001" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix 1001" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Gallery.cpp</url>
-          <line>77</line>
+          <line>57</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

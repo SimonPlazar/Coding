@@ -74,7 +74,7 @@ void Gallery::sort(bool (*c)(std::shared_ptr<Artwork>, std::shared_ptr<Artwork>)
                 std::swap(artworks[j], artworks[j + 1]);
 }
 
-std::shared_ptr<Artwork> Gallery::find(std::function<bool(std::shared_ptr<Artwork>)> c) {
+std::shared_ptr<Artwork> Gallery::find(std::function<bool(std::shared_ptr<Artwork>)> c) const{
     auto it = std::find_if(artworks.begin(), artworks.end(), isRenaissanceArt);
 
     if (it != artworks.end() && isRenaissanceArt(*it))
@@ -83,7 +83,7 @@ std::shared_ptr<Artwork> Gallery::find(std::function<bool(std::shared_ptr<Artwor
         return  std::make_shared<Artwork>();
 }
 
-void Gallery::printArtworks(PrintIfPainting i) {
+void Gallery::printArtworks(PrintIfPainting i) const{
     std::for_each(artworks.begin(), artworks.end(), i);
 }
 

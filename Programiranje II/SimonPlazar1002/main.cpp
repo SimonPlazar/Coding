@@ -2,7 +2,7 @@
 #include "Painting.h"
 #include "Gallery.h"
 #include "Sculpture.h"
-#include "ArtistLivesAt.h"
+#include "Luna.h"
 
 bool isOlderThan2000(const std::shared_ptr<Artwork>& a){
     if(a->getYear() > 2000) return true;
@@ -81,9 +81,9 @@ int main() {
 
     std::cout << "\n---------------------------\n";
 
-    //std::string houseType, int yearsOfResidency, std::string name, std::string biography, Date dateOfBirth, std::string naslov, double area
-    ArtistLivesAt vaja("Mansion", 12, "Artist", "bio", Date(19,9,2002), "naslov 123 a", 200.12);
-    vaja.print();
+    //std::string ime, unsigned int masa, unsigned int visina, unsigned int povrsina
+    Luna vaja("Ime", 1200, 1000000, 5065);
+    std::cout<<vaja.toString();
 
     return 0;
 }

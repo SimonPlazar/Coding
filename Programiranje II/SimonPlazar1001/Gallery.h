@@ -27,14 +27,10 @@ public:
 
     Artwork* find(bool (*c)(Artwork*));
 
-    void printArtworks(PrintIfPainting i);
+    void printArtworks(PrintIfPainting i) const;
+
+    std::vector<Artwork *> findAll(bool (*c)(Artwork*)) const;
 };
-
-bool ascendingYear(Artwork* i, Artwork* j);
-bool descandingYear(Artwork* i, Artwork* j);
-bool ascendingPrice(Artwork* i, Artwork* j);
-
-bool isRenaissanceArt(Artwork* a);
 
 
 #endif //SIMONPLAZAR0401_GALLERY_H

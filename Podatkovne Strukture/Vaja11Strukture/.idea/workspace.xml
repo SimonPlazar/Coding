@@ -12,59 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1e16826-eaf5-49d8-88cf-eab80dc8a946" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Vaja11Strukture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-4e416beb067cf0a76602.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-01b72a90d792f9235342.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-87d54d4623526787d3de.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-20T13-02-19-0667.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Vaja11Strukture-Debug-78362243bfb191aa50bd.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-40a45361301b1337b711.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-afcdc0262e76ac28e0dd.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-01T16-25-50-0862.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vaja10Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaja10Strukture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vaja9Strukture/Vaja9Strukture.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaja9Strukture/Vaja9Strukture.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vaja9Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Vaja9Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/Gallery.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1001/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/Gallery.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1102/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Programiranje II/SimonPlazar1102/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,11 +55,6 @@
     <property name="cmake.loaded.for.project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Vaja11Strukture" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Vaja11Strukture" TARGET_NAME="Vaja11Strukture" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Vaja11Strukture" RUN_TARGET_NAME="Vaja11Strukture">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -123,6 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653051733076</updated>
       <workItem from="1653051735244" duration="6242000" />
+      <workItem from="1653339987803" duration="20000" />
     </task>
     <servers />
   </component>

@@ -19,7 +19,7 @@ private:
     Date dateOfBirth;
     Address address;
 public:
-    Student(unsigned int id,std::string name,std::string surname,Date dateOfBirth,Address address);
+    Student(unsigned int id, std::string name, std::string surname, Date dateOfBirth, Address address);
 
     std::string toString() const;
 

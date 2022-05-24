@@ -5,6 +5,7 @@
 #include "Student.h"
 #include "InvalidFile.h"
 #include "Log.h"
+#include "UnparseableDateException.h"
 #include <utility>
 #include <sstream>
 
@@ -22,15 +23,10 @@ std::string Student::toString() const {
 
 std::vector<std::shared_ptr<Student>> Student::LoadFromFile(const std::string &fileName) {
     std::vector<std::shared_ptr<Student>> studenti;
-
+    Date tmp;
     std::ifstream file(fileName);
 
-    try {
-        if (!file.is_open()) throw InvalidFile(fileName);
-    } catch (InvalidFile &exception) {
-        Log(LogType::ERROR) << exception.what()<<"\n";
-        return {};
-    }
+    if (!file.is_open()) throw InvalidFile(fileName);
 
     while (!file.eof()) {
         std::vector<std::string> studentRow;
@@ -45,10 +41,19 @@ std::vector<std::shared_ptr<Student>> Student::LoadFromFile(const std::string &f
             studentRow.push_back(substr);
         }
 
+        if (studentRow.size() != 7) continue;
+
+        try{
+            tmp = Date::GetDateFromString(studentRow[3]);
+        } catch (UnparseableDateException &exception) {
+            std::cout<<exception.what()<<std::endl;
+            tmp = {};
+        }
+
         studenti.push_back(std::make_shared<Student>(std::stoi(studentRow[0]),
                                                      studentRow[1],
                                                      studentRow[2],
-                                                     Date::GetDateFromString(studentRow[3]),
+                                                     tmp,
                                                      Address(studentRow[4], studentRow[5], studentRow[6])
         ));
     }

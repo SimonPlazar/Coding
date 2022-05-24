@@ -26,9 +26,9 @@ public:
 
     void sort(bool (*c)(std::shared_ptr<Artwork>, std::shared_ptr<Artwork>));
 
-    std::shared_ptr<Artwork> find(std::function<bool(std::shared_ptr<Artwork>)> c);
+    std::shared_ptr<Artwork> find(std::function<bool(std::shared_ptr<Artwork>)> c) const;
 
-    void printArtworks(PrintIfPainting i);
+    void printArtworks(PrintIfPainting i) const;
 
     void filterOut(std::function<bool(std::shared_ptr<Artwork>)> c);
 };

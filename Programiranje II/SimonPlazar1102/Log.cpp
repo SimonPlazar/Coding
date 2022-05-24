@@ -28,15 +28,8 @@ std::string Log::GetStringLogType(LogType type) {
 Log::Log(LogType type) {
     file.open(fileName, std::ios::app);
 
-    try {
-        if (file.is_open())
-            file << GetStringLogType(type);
-        else
-            throw InvalidFile(fileName);
-    } catch (InvalidFile &exception) {
-        Log(LogType::ERROR) << exception.what() << "\n";
-    }
-
+    if (file.is_open())
+        file << GetStringLogType(type);
 
 }
 

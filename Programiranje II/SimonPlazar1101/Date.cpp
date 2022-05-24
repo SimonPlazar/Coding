@@ -2,6 +2,7 @@
 #include <algorithm>
 #include "Date.h"
 #include "UnparseableDateException.h"
+#include "WrongDateException.h"
 
 Date::Date() : day(0), month(0), year(0) {}
 
@@ -45,37 +46,36 @@ bool goodFormat(const std::string &dateString) {
                         if (abeceda.find(i) != std::string::npos) return true;
                         else return false;
                     }
-        ) || dateString.size() < 5 || dateString.find("..") != std::string::npos)
+        ) || dateString.size() < 5 || dateString.find("..") != std::string::npos) {
+
         return false;
+    }
     return true;
 }
 
 
 Date Date::GetDateFromString(const std::string &dateString) {
-    try {
-        if (goodFormat(dateString)) {
-            unsigned int d = 0, m = 0, y = 0;
+    if (goodFormat(dateString)) {
+        unsigned int d = 0, m = 0, y = 0;
 
-            std::string tmp = dateString;
+        std::string tmp = dateString;
 
-            for (char & i : tmp) if(i == '.') i = ' ';
+        for (char &i: tmp) if (i == '.') i = ' ';
 
-            std::stringstream(tmp) >> d >> m >> y;
+        std::stringstream(tmp) >> d >> m >> y;
 
-            return {d, m, y};
-        } else {
-            throw UnparseableDateException(dateString);
-        }
-    } catch (UnparseableDateException &exception) {
-        std::cout<<exception.what()<<std::endl;
-        return {};
+        if (d > 31) throw WrongDateException(dateString);
+        if (m > 12) throw WrongDateException(dateString);
+        if (y > 2030) throw WrongDateException(dateString);
+
+        return {d, m, y};
+    } else {
+        throw UnparseableDateException(dateString);
     }
-
-
 }
 
 void Date::print() const {
-    std::cout<<toString()<<std::endl;
+    std::cout << toString() << std::endl;
 }
 
 

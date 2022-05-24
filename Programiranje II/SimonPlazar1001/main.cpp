@@ -3,6 +3,31 @@
 #include "Gallery.h"
 #include "Sculpture.h"
 
+bool ascendingYear(Artwork* i, Artwork* j){
+    if(i->getYear() <= j->getYear()) return true;
+    return false;
+}
+
+bool descandingYear(Artwork* i, Artwork* j){
+    if(i->getYear() >= j->getYear()) return true;
+    return false;
+}
+
+bool ascendingPrice(Artwork* i, Artwork* j){
+    if(i->getPrice() <= j->getPrice()) return true;
+    return false;
+}
+
+bool isRenaissanceArt(Artwork* a){
+    if(1400 < a->getYear() && a->getYear() < 1600 ) return true;
+    return false;
+}
+
+bool isOlderThan2000(Artwork* a){
+    if (a->getYear()<2000) return true;
+    return false;
+}
+
 int main() {
     Artist artist1("Artist1_Ime", "Artist1_Opis", Date(1, 1, 123));
 
@@ -34,28 +59,36 @@ int main() {
     std::cout << galerija.toString();
 
     galerija.sort(ascendingYear);
-    std::cout << "\n---------------------------\n";
+    std::cout << "\n--------ascendingYear--------\n";
 
     std::cout << galerija.toString();
 
     galerija.sort(descandingYear);
-    std::cout << "\n---------------------------\n";
+    std::cout << "\n--------descandingYear-------\n";
 
     std::cout << galerija.toString();
 
     galerija.sort(ascendingPrice);
-    std::cout << "\n---------------------------\n";
+    std::cout << "\n------ascendingPrice-------\n";
 
     std::cout << galerija.toString();
 
-    std::cout << "\n---------------------------\n";
+    std::cout << "\n-----isRenaissanceArt----\n";
 
     std::cout << galerija.find(isRenaissanceArt)->toString();
 
-    std::cout << "\n---------------------------\n";
+    std::cout << "\n---------paint-----------\n";
 
     PrintIfPainting paint;
     galerija.printArtworks(paint);
+
+    std::cout << "\n---------isOlderThan2000-----\n";
+
+   std::vector<Artwork*> tmp = galerija.findAll(isOlderThan2000);
+
+    for (auto & i : tmp) {
+        i->print();
+    }
 
     return 0;
 }

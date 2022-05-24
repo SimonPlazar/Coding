@@ -23,7 +23,12 @@ public:
     ~Log();
 
     template<typename T>
-    Log &operator<<(const T &msg) {file << msg;}
+    Log &operator<<(const T &msg) {
+        if (file.is_open())
+            file << msg;
+
+        return *this;
+    }
 };
 
 

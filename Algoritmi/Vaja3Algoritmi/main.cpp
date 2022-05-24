@@ -6,128 +6,23 @@
 
 using namespace std;
 
-struct pairCharCount{
+struct Element {
     unsigned int count;
-    char character;
-
-    pairCharCount(unsigned int count, char character) : count(count), character(character){}
-};
-
-struct pairCharCode{
     char character;
     vector<bool> codes;
 
-    pairCharCode(char character, vector<bool> code) : character(character), codes(std::move(code)){}
-    void print() const{
-        cout<<character<<"->";
-        for (bool code : codes) {
-            cout << code;
-        }
-        cout<<endl;
-    }
+    Element(unsigned int count, char character) : count(count), character(character) {}
 };
-
-struct Node{
-    Node* prev;
-    Node* left;
-    Node* right;
-    vector<pairCharCount> pairs2;
-    unsigned int sum = 0;
-    vector<bool> code={};
-};
-
-class Tree{
-public:
-    Tree(const vector<pairCharCount>& pairs, vector<pairCharCode> &tabela){
-        root = new Node();
-
-        for (auto pair : pairs) {
-            root->pairs2.push_back(pair);
-        }
-
-        Node* current = root;
-
-        while (current != nullptr){
-            if (current->pairs2.size() > 1 && current->left == nullptr){
-                unsigned int sum = 0;
-
-                for (auto & pair : pairs) {
-                    sum += pair.count;
-                }
-                current->sum = sum;
-
-                unsigned int left = current->pairs2[0].count;
-                unsigned int right = sum - current->pairs2[0].count;
-                int diff1 = left - right;
-                if(diff1 < 0) diff1 = diff1 * (-1);
-
-                for (int i = 0; i < current->pairs2.size(); ++i) {
-                    left += current->pairs2[i+1].count;
-                    right -= current->pairs2[i+1].count;
-                    int diff2 = left - right;
-                    if(diff2 < 0) diff2 = diff2 * (-1);
-
-                    if (diff1 > diff2){
-                        swap(diff1, diff2);
-                    }else{
-                        Node* newLeft = new Node();
-                        Node* newRight = new Node();
-
-                        newLeft->prev = current;
-                        newLeft->sum = left - current->pairs2[i+1].count;
-
-                        newRight->prev = current;
-                        newRight->sum = right + current->pairs2[i+1].count;
-
-                        newLeft->code = current->code;
-                        newLeft->code.push_back(false);
-
-                        newRight->code = current->code;
-                        newRight->code.push_back(true);
-
-                        current->left = newLeft;
-                        current->right = newRight;
-
-                        for (int j = 0; j <= i; ++j) {
-                            newLeft->pairs2.push_back(current->pairs2[j]);
-                        }
-
-                        for (int j = i+1; j < current->pairs2.size(); ++j) {
-                            newRight->pairs2.push_back(current->pairs2[j]);
-                        }
-
-                        current = current->left;
-                        break;
-                    }
-                }
-            }else{
-                if (current->pairs2.size() == 1){
-                    tabela.emplace_back(current->pairs2[0].character, current->code);
-                }
-
-                if (current->prev != nullptr && current->prev->right != current){
-                    current = current->prev->right;
-                    continue;
-                }else if(current->prev != nullptr && current->prev->right == current){
-                    current = current->prev->prev->right;
-                    continue;
-                }else{
-                    break;
-                }
-
-            }
-        }
-    }
-
-    Node* root;
-};
-
 
 class BinWriter {
 public:
     int k;
     ofstream f;
     char x{};
+
+    int getK() const {
+        return k;
+    }
 
     explicit BinWriter(const string &file) : k(0) {
         f.open(file, ios::binary);
@@ -202,17 +97,17 @@ public:
     }
 };
 
-void fillVec(char tmp, vector<pairCharCount> &pairs) {
-    for (auto & pair : pairs) {
+void fillVec(char tmp, vector<Element> &pairs) {
+    for (auto &pair: pairs) {
         if (pair.character == tmp) {
             pair.count++;
             return;
         }
     }
-    pairs.emplace_back(1,tmp);
+    pairs.emplace_back(1, tmp);
 }
 
-unsigned int deli(vector<pairCharCount> &pairs, unsigned int dno, unsigned int vrh) {
+unsigned int deli(vector<Element> &pairs, unsigned int dno, unsigned int vrh) {
     unsigned int pe = pairs[dno].count;
     unsigned int l = dno;
     unsigned int d = vrh;
@@ -230,24 +125,24 @@ unsigned int deli(vector<pairCharCount> &pairs, unsigned int dno, unsigned int v
     return d;
 }
 
-void hitroUredi(vector<pairCharCount> &pairs, unsigned int dno, unsigned int vrh) {
+void hitroUredi(vector<Element> &pairs, unsigned int dno, unsigned int vrh) {
     if (dno < vrh) {
         unsigned int j = deli(pairs, dno, vrh);
-        if(dno != j)
+        if (dno != j)
             hitroUredi(pairs, dno, j - 1);
-        if(vrh != j)
+        if (vrh != j)
             hitroUredi(pairs, j + 1, vrh);
     }
 }
 
-void sortPairs(vector<pairCharCount> &pairs) {
-    hitroUredi(pairs, 0, pairs.size()-1);
+void sortPairs(vector<Element> &pairs) {
+    hitroUredi(pairs, 0, pairs.size() - 1);
     reverse(pairs.begin(), pairs.end());
 }
 
-vector<pairCharCount> readFile(const string& path) {
+vector<Element> readFile(const string &path) {
     BinReader br(path);
-    vector<pairCharCount> pairs;
+    vector<Element> pairs;
 
     while (br.f.peek() != EOF) {
         fillVec(br.readByte(), pairs);
@@ -258,34 +153,168 @@ vector<pairCharCount> readFile(const string& path) {
     return pairs;
 }
 
-void ShannonFanoEncryption(const string& path){
-    vector<pairCharCount> pairs = readFile(path);
+void ShannonFano(vector<Element> &elements, int l, int h) {
+    unsigned int pack1 = 0, pack2 = 0;
+    int diff1, diff2;
+    int k, j;
 
-    for (auto & pair : pairs) {
-        cout <<pair.character;
+    //dodeli zadnjim elementom vrednosti
+    if ((l + 1) == h || l == h || l > h) {
+        if (l == h || l > h) return;
+        elements[h].codes.push_back(false);
+        elements[l].codes.push_back(true);
+        return;
+    } else {
+        for (int i = l; i < h; i++) pack1 += elements[i].count;
+        pack2 += elements[h].count;
+        diff1 = pack1 - pack2;
+        if (diff1 < 0) diff1 *= -1;
+        j = 2;
+        while (j != h - l + 1) {
+            k = h - j;
+            pack1 = pack2 = 0;
+            for (int i = l; i <= k; ++i) pack1 += elements[i].count;
+            for (int i = h; i > k; --i) pack2 += elements[i].count;
+            diff2 = pack1 - pack2;
+            if (diff2 < 0) diff2 *= -1;
+            if (diff2 >= diff1) break;
+            diff1 = diff2;
+            j++;
+        }
+        k++;
+
+        for (int i = l; i <= k; i++)
+            elements[i].codes.push_back(true);
+        for (int i = k + 1; i <= h; i++)
+            elements[i].codes.push_back(false);
+
+        //rekurzivni klic
+        ShannonFano(elements, l, k);
+        ShannonFano(elements, k + 1, h);
+    }
+}
+
+void Encryption(const string &path) {
+    vector<Element> elements = readFile(path);
+    /*
+    for (auto &element: elements) {
+        cout << element.character;
     }
 
     cout << endl;
-    for (auto & pair : pairs) {
-        cout <<pair.count;
+    for (auto &element: elements) {
+        cout << element.count;
+    }
+    */
+    ShannonFano(elements, 0, elements.size() - 1);
+    /*
+    cout << endl;
+    for (auto &element: elements) {
+        for (auto &&code: element.codes) {
+            cout << code;
+        }
+        cout << endl;
+    }
+    */
+
+    BinReader br(path);
+    BinWriter bw("encrypted.bin");
+    char tmp;
+    vector<bool> bits;
+    int bitsNum = 0;
+    int charNum = 0;
+
+    //table
+
+    bw.writeInt(elements.size());
+    for (auto & element : elements) {
+        bw.writeByte(element.character);
+        bw.writeInt(element.count);
     }
 
-    vector<pairCharCode> codes;
 
-    Tree drevo(pairs, codes);
+    //data encryption
 
-    drevo.root;
+    while (br.f.peek() != EOF){
+        tmp = br.readByte();
+        charNum++;
 
-    for (auto & code : codes) {
-        code.print();
+        //find code of the read char
+        for (auto & element : elements){
+            if(element.character == tmp){
+                bits = element.codes;
+                break;
+            }
+        }
+
+        //write bits
+        for (auto && bit : bits) {
+            bw.writeBit(bit);
+            bitsNum++;
+        }
+    }
+
+    //if left over bits
+    if (bw.getK() != 0){
+        for (int i = bw.getK(); i <= 7; ++i) {
+            bw.writeBit(false);
+            bitsNum++;
+        }
+    }
+
+    cout<<"Razmerje: "<<(float)((float)(charNum*8)/(float)bitsNum);
+}
+
+void Decryption(const string &path){
+    BinReader br(path);
+    BinWriter bw("decrypted.bin");
+
+    int charNum = br.readInt();
+    vector<Element> elements;
+    int count;
+    char character;
+    vector<bool> bits;
+
+    for (int i = 0; i < charNum; ++i) {
+        character = br.readByte();
+        count = br.readInt();
+        elements.emplace_back(count, character);
+    }
+
+    ShannonFano(elements, 0, elements.size() - 1);
+    /*
+    for (auto &element: elements) {
+        cout << element.character;
+    }
+
+    cout << endl;
+    for (auto &element: elements) {
+        cout << element.count;
+    }
+
+    cout << endl;
+    for (auto &element: elements) {
+        for (auto &&code: element.codes) {
+            cout << code;
+        }
+        cout << endl;
+    }
+    */
+    //br.f.ignore(8);
+    while(br.f.good()){
+        bits.push_back(br.readBit());
+        for (auto & element : elements) {
+            if(element.codes == bits){
+                bw.writeByte(element.character);
+                bits.clear();
+            }
+        }
     }
 }
 
 
+int main(int argc, const char *argv[]) {
 
-int main(int argc, const char* argv[]) {
-
-    /*
     //ce premalo argumentov
     if (argc < 2) {
         return -1;
@@ -294,11 +323,13 @@ int main(int argc, const char* argv[]) {
     string path = argv[2];
     char option = argv[1][0];
 
-    if (option == 'c') ShannonFanoEncryption(path);
-    //else if (option == 'd') ShannonFanoDecompression(path);
-    */
+    if (option == 'c') Encryption(path);
+    else if (option == 'd') Decryption(path);
 
-    ShannonFanoEncryption("test.bin");
+    /*
+    Encryption("alice.txt");
+    Decryption("encrypted.bin");
+    */
 
     return 0;
 }
