@@ -153,29 +153,29 @@ vector<Element> readFile(const string &path) {
     return pairs;
 }
 
-void ShannonFano(vector<Element> &elements, int l, int h) {
-    unsigned int pack1 = 0, pack2 = 0;
+void ShannonFano(vector<Element> &elements, int start, int end) {
+    unsigned int sum1 = 0, sum2 = 0;
     int diff1, diff2;
     int k, j;
 
     //dodeli zadnjim elementom vrednosti
-    if ((l + 1) == h || l == h || l > h) {
-        if (l == h || l > h) return;
-        elements[h].codes.push_back(false);
-        elements[l].codes.push_back(true);
+    if ((start + 1) == end || start == end || start > end) {
+        if (start == end || start > end) return;
+        elements[end].codes.push_back(false);
+        elements[start].codes.push_back(true);
         return;
     } else {
-        for (int i = l; i < h; i++) pack1 += elements[i].count;
-        pack2 += elements[h].count;
-        diff1 = pack1 - pack2;
+        for (int i = start; i < end; i++) sum1 += elements[i].count;
+        sum2 += elements[end].count;
+        diff1 = sum1 - sum2;
         if (diff1 < 0) diff1 *= -1;
         j = 2;
-        while (j != h - l + 1) {
-            k = h - j;
-            pack1 = pack2 = 0;
-            for (int i = l; i <= k; ++i) pack1 += elements[i].count;
-            for (int i = h; i > k; --i) pack2 += elements[i].count;
-            diff2 = pack1 - pack2;
+        while (j != end - start + 1) {
+            k = end - j;
+            sum1 = sum2 = 0;
+            for (int i = start; i <= k; ++i) sum1 += elements[i].count;
+            for (int i = end; i > k; --i) sum2 += elements[i].count;
+            diff2 = sum1 - sum2;
             if (diff2 < 0) diff2 *= -1;
             if (diff2 >= diff1) break;
             diff1 = diff2;
@@ -183,14 +183,14 @@ void ShannonFano(vector<Element> &elements, int l, int h) {
         }
         k++;
 
-        for (int i = l; i <= k; i++)
+        for (int i = start; i <= k; i++)
             elements[i].codes.push_back(true);
-        for (int i = k + 1; i <= h; i++)
+        for (int i = k + 1; i <= end; i++)
             elements[i].codes.push_back(false);
 
         //rekurzivni klic
-        ShannonFano(elements, l, k);
-        ShannonFano(elements, k + 1, h);
+        ShannonFano(elements, start, k);
+        ShannonFano(elements, k + 1, end);
     }
 }
 
