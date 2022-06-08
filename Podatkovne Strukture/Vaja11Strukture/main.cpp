@@ -29,6 +29,8 @@ struct Pot {
     unsigned int cost;
     vector<bool> mnozica; // size st vozlisc // S
 
+    Pot()= default;
+
     Pot(unsigned int starting, unsigned int ending, unsigned int cena, unsigned int st) : starting(starting),
                                                                                           ending(ending),
                                                                                           cost(cena) {
@@ -50,56 +52,85 @@ private:
     vector<Vozlisce *> seznamVozlisc;
     unsigned int verticesCount = 0;
     unsigned int start = 0;
-    stack<list<Pot>> nivoji; // list<Pot> -> nivo je seznam poti
+    vector<vector<Pot>> nivoji; // list<Pot> -> nivo je seznam poti
     default_random_engine generator;
 
 public:
     Graph() = default;
 
-    static void printNivo(list<Pot> nivo) {
-        while (!nivo.empty()) {
-            nivo.front().print();
-            nivo.pop_front();
+    static void printNivo(vector<Pot> nivo) {
+        for (auto &i: nivo) {
+            i.print();
             cout << endl;
         }
         cout << endl;
     }
 
-    list<Pot> VSTAVI_PRVA_VOZLIŠČA() {
-        list<Pot> nivo;
+    vector<Pot> VSTAVI_PRVA_VOZLIŠČA() {
+        vector<Pot> nivo;
 
         for (int i = 1; i < verticesCount; ++i)
             if (matrix[i][0] != 0)
-                nivo.emplace_front(i, 0, matrix[i][0], verticesCount);
+                nivo.emplace_back(i, 0, matrix[i][0], verticesCount);
 
         return nivo;
     }
 
-    void NAPRAVI_SEZNAM(unsigned int vozlisce, list<Pot> &nivo) {
-        for (unsigned int i = vozlisce + 1; i < verticesCount; ++i) {
-            // ce je povezava med vozljisce in i in med i in 1
-            if (matrix[vozlisce][i] != 0 && matrix[i][0] != 0) {
-                nivo.emplace_front(vozlisce, i, matrix[vozlisce][i] + matrix[i][1], verticesCount);
+    void NAPRAVI_SEZNAM(unsigned int vozlisce, vector<Pot> &nivo, unsigned int nivoNum) {
+        vector<Pot> tmpNivo;
+
+        if (nivoNum == 1) {
+            for (unsigned int i = 1; i < verticesCount; ++i) {
+                if (i == vozlisce) continue;
+
+                nivo.emplace_back(vozlisce, i, matrix[vozlisce][i] + matrix[i][0], verticesCount);
                 nivo.back().mnozica[i] = true;
             }
+            return;
         }
 
-        printNivo(nivo);
+        vector<Pot> prev = nivoji[nivoNum - 1];
+        vector<Pot> viable;
+        vector<bool> mnozicaViable;
+        Pot pot;
+
+        for (auto &i: prev)
+            if (i.starting == vozlisce)
+                viable.push_back(i);
+
+        //doda vozlisce
+        for (int i = 1; i < verticesCount; ++i) {
+            for (auto & j : viable) {
+                mnozicaViable = j.mnozica;
+                // ce je isto vozlisce ali ce je ze sla skozi to vozlisce
+                if (i == vozlisce || mnozicaViable[i]) continue;
+
+                for (auto & k : viable) {
+                    if (k.ending == i && !mnozicaViable[i])
+                        pot = k;
+                }
+
+                mnozicaViable[i] = true;
+                nivo.emplace_back(vozlisce, i, matrix[vozlisce][i] + pot.cost, verticesCount);
+                nivo.back().mnozica = mnozicaViable;
+            }
+        }
     }
 
     void Potnik(/* Matrix and st_vozlisc*/) {
         nivoji = {};
-        list<Pot> nivo = VSTAVI_PRVA_VOZLIŠČA();
-        nivoji.push(nivo);
+        vector<Pot> nivo = VSTAVI_PRVA_VOZLIŠČA();
+        nivoji.push_back(nivo);
 
         printNivo(nivo);
 
-        for (int st_nivoja = 2; st_nivoja < verticesCount - 1; ++st_nivoja) {
+        for (int st_nivoja = 1; st_nivoja < verticesCount - 1; ++st_nivoja) {
             nivo = {};
             for (unsigned int vozlisce = 1; vozlisce < verticesCount; ++vozlisce) {
-                NAPRAVI_SEZNAM(vozlisce, nivo);
+                NAPRAVI_SEZNAM(vozlisce, nivo, st_nivoja);
             }
-            nivoji.push(nivo);
+            nivoji.push_back(nivo);
+            printNivo(nivo);
         }
     }
 

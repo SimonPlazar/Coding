@@ -12,96 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79d7654-3ed9-42a1-a612-74adb4b9c116" name="Changes" comment="1102">
-      <change afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/Luna.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/Luna.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/NebesnoTelo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/NebesnoTelo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/Satelit.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/Satelit.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-d39f7aae0d7c02faafff.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-24T11-17-29-0419.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.cmake/api/v1/reply/target-SimonPlazar1002-Debug-2bb2366cfa810d8b28b0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/CMakeFiles/SimonPlazar1002.dir/Luna.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/CMakeFiles/SimonPlazar1002.dir/NebesnoTelo.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/CMakeFiles/SimonPlazar1002.dir/Satelit.cpp.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/WrongDateException.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimonPlazar1101/WrongDateException.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/DN1Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/DN1Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/Resitve.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-680b61bc2cbba3ef00db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-16T19-27-02-0192.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.cmake/api/v1/reply/target-Vaja3Algoritmi-Debug-797193cf1c52ff7dc485.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/CMakeFiles/Vaja3Algoritmi.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/Vaja3Algoritmi.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algoritmi/Vaja3Algoritmi/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja10Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/Vaja11Strukture.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/CMakeFiles/Vaja11Strukture.dir/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/Vaja11Strukture.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/cmake-build-debug/Vaja11Strukture.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Podatkovne Strukture/Vaja11Strukture/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/Gallery.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/Gallery.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/Gallery.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/Gallery.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/Gallery.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/Gallery.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/CMakeFiles/SimonPlazar1001.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/SimonPlazar1001.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/SimonPlazar1001.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1001/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1001/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/ArtistLivesAt.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/ArtistLivesAt.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/Gallery.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/Gallery.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/Gallery.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/Gallery.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/House.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/House.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fb218fc3e52ea27f37e1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-15T15-40-44-0443.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.cmake/api/v1/reply/target-SimonPlazar1002-Debug-8b75ad8c5a041326538d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/CMakeFiles/SimonPlazar1002.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/CMakeFiles/SimonPlazar1002.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/SimonPlazar1002.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/SimonPlazar1002.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1002/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1002/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/Date.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/Student.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/Student.h" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/Student.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3450834fdabe5b36d7c5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-23T01-15-16-0988.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.cmake/api/v1/reply/target-SimonPlazar1101-Debug-87dfdc5b0006deaaaf97.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/Date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/Date.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/Student.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/Student.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/CMakeFiles/SimonPlazar1101.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/SimonPlazar1101.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/SimonPlazar1101.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimonPlazar1101/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../SimonPlazar1101/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Date.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Date.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Log.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Log.h" beforeDir="false" afterPath="$PROJECT_DIR$/Log.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Student.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1102.dir/Date.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1102.dir/Date.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1102.dir/Student.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1102.dir/Student.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1102.dir/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/SimonPlazar1102.dir/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/SimonPlazar1102.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/SimonPlazar1102.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/output2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/output2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +83,7 @@
       <workItem from="1653337636579" duration="611000" />
       <workItem from="1653386352618" duration="607000" />
       <workItem from="1653388791329" duration="2137000" />
+      <workItem from="1653774178987" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="1102">
       <created>1653317735965</created>
