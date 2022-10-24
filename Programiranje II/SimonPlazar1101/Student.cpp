@@ -21,6 +21,19 @@ std::string Student::toString() const {
     return ss.str();
 }
 
+void Student::SaveToFile(const std::vector<std::shared_ptr<Student>> &students, const std::string &fileName) {
+    std::ofstream file(fileName);
+
+    if (!file.is_open()) {
+        std::cout << "error!";
+        return ;
+    }
+
+    for (const auto & student : students) file<< student->toString() << std::endl;
+
+    file.close();
+}
+
 std::vector<std::shared_ptr<Student>> Student::LoadFromFile(const std::string &fileName) {
     std::vector<std::shared_ptr<Student>> studenti;
     Date tmp;
@@ -68,17 +81,3 @@ std::vector<std::shared_ptr<Student>> Student::LoadFromFile(const std::string &f
 
     return studenti;
 }
-
-void Student::SaveToFile(const std::vector<std::shared_ptr<Student>> &students, const std::string &fileName) {
-    std::ofstream file(fileName);
-
-    if (!file.is_open()) {
-        std::cout << "error!";
-        return ;
-    }
-
-    for (const auto & student : students) file<< student->toString() << std::endl;
-
-    file.close();
-}
-
