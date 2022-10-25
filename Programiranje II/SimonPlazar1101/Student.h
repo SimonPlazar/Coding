@@ -21,11 +21,11 @@ private:
 public:
     Student(unsigned int id, std::string name, std::string surname, Date dateOfBirth, Address address);
 
+    static void SaveToFile(const std::vector<std::shared_ptr<Student>> &students, const std::string &fileName);
+
     std::string toString() const;
 
     static std::vector<std::shared_ptr<Student>> LoadFromFile(const std::string &fileName);
-
-    static void SaveToFile(const std::vector<std::shared_ptr<Student>> &students, const std::string &fileName);
 };
 
 
