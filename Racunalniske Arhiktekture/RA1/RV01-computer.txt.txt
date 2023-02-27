@@ -1,0 +1,113 @@
+RV01: computer
+
+-Izbrana poslovna dejavnost je grafično oblikovanje
+Skupna cena: €3685,10
+
+1: Monitor
+	Dell S2722QC 27-inch USB-C Monitor, 4K UHD 3840 x 2160, 60 Hz, 4 ms (Extreme), IPS Anti-Glare, 16:9, 2 x HDMI, USB-C, Platinum Silver
+	27-palični premer zaslona, ločljivost 3840 x 2160, osvežitvena hitrost 60 Hz, odzivni čas 4 ms, razmerje 16:9, IPS prikaz s prevleko proti bleščanju, 
+	možnost povezave s USB-C ali HDMI
+https://amzn.eu/d/entIacO
+Razlog za izbiro: Za izbrano delo je priporočljiv zaslov z visoko ločljivosto, ki jo ta zalon ima. 
+Velikost zalona in količina pokritega barvneega prostora je tudi ugodna za to delo.
+Cena: €416,00 + €11,99
+
+2: Tipkovnica
+	Razer Pro Type Ultra - US
+	Vsebuje Razer™ rumene mehanične tihe tipke, velikost je polna (vsebuje številčno tipkovnico, puščične tipke), odvetljene tipke od zadaj, 
+	media tipke, možnost povezave preko USB-C kabla, brezžično Bluetooth® in Razer™ HyperSpeed (2.4GHz)
+https://www.razer.com/eu-en/gaming-keyboards/Razer-Pro-Type-Ultra/RZ03-04110100-R3M1
+Razlog za izbiro: Ugoden paket skupaj z miško in podlogo. Cenjena znamka, znana po kvaliteti njihovih produktov.
+Cena: €169,99
+
+3: Miška
+Razer Pro Click Mini
+Vsebuje optični senzor, možnost pobezave brezžično z Bluetooth® in Razer™ HyperSpeed (2.4GHz), maksimalno občutljivost 12000 DPI, 
+ima 7 programirljivih gumbov
+https://www.razer.com/eu-en/gaming-mice/Razer-Pro-Click-Mini/RZ01-03990100-R3G1
+Cena: €89,99
+
+4: Podlaga za miško
+Razer Pro Glide - XXL
+Velikosti 940 mm x 410 mm x 3 mm s protidrsno gumjasto površino
+https://www.razer.com/eu-en/gaming-mouse-mats/Razer-Pro-Glide/RZ02-03332300-R3M1
+Cena: €34,99
+
+5: Namizni računalnik 
+PC BOFX VOLANTIS R7-5700X 32GB 1TB SSD RTX3070 W11
+	Procesor: AMD Ryzen 7 5700X (3,4 - 4,6 GHz)
+	Grafična kartica: Nvidia GeForce RTX 3070 8GB GDDR6
+	Pomnilnik RAM: 32GB (2x 16GB) hitrosti 3200MHz
+	Disk: SSD M.2 NVMe kapacitete 1 TB
+	OS: Windows 11 Home
+	Garancija: 2 leti
+	Dodatna programska oprema: Microsoft 365 Personal
+https://www.bigbang.si/pc-bofx-volantis-r7-5700x-32gb-1tb-ssd-rtx3070-w11-namizni-racunalnik-izdelek-357429/
+Razlog za izbiro: Dober procesor, skupaj z močno grafično kartico za uprizorjenje (rendering). 
+Programi za grafično oblikovanje rasedajo veliko pomnilnika zato 32GB  RAMa. SSD za operacijski sistem in druge manjše datoteke. 
+Cena: 2.119,99 €
+
+6: Dodatni disk
+	2x SEAGATE BarraCuda 2TB 3,5" SATA3 256MB 7200 (ST2000DM008) trdi disk
+	Format 3.5 palcov, vmesnik SATA3, kapaciteta 2TB
+https://www.pcplus.si/racunalnistvo/komponente/trdi-diski-in-ssd/seagate-barracuda-2tb-3-5-sata3-256mb-7200-st2000dm008-trdi-disk.html
+Razlog za izbiro: Namen za uporabo v RAID1 (zrcaljenje). Shramba za vse večje datoteke, s katerimi bi operirali.
+Cena: 111,31 €
+
+7: Programska oprema
+	Adobe Creative Cloud z vsemi programi
+https://www.adobe.com/si/creativecloud/plans.html
+Razlog za izbiro: Programska operma za obdelavo grafik, slik in podobno. S programi Adobe imam izkušnje zato sem se zanj odločil.
+Cena: €731,85 €/leto 
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+-Seznam komponent za izbran mobilni telefon: Apple iPhone 14 Pro Max (512 GB) - Space Black
+	Zaslon: živahen super mrežnični XDR zaslon z keramičnim ščitom, 120Hz osvežitvena hitrost
+	Ločljivost: 1290 x 2796
+	Razmerje 19.5:9 
+	OS: iOS 16
+	Integrirano vezje: Apple A16 Bionic (4 nm)
+	CPE: Hexa-core (2x3.46 GHz Everest + 4x2.02 GHz Sawtooth)
+	GPE: Apple GPU (5-core graphics)
+	Pomnilnik: 6GB RAM
+	Disk: 512GB NVMe
+	Kamera: 48 MP, f/1.8, 24mm (wide), 1/1.28", 1.22µm
+		12 MP, f/2.8, 77mm (telephoto), 1/3.5", 3x optični približek
+		12 MP, f/2.2, 13mm, 120˚ (ultrawide), 1/2.55", 1.4µm
+		12 MP, f/1.9, 23mm (wide), 1/3.6"
+	Baterija: litij-ionska 4323 mAh
+https://amzn.eu/d/7kzzqws
+Cena: €1,839.00
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Kratice in razlaga:
+USB - universal serial bus (Tehnologija, ki se uporablja za povezavo računalnikov s perifernimi napravami)
+4K UHD - Ultra High Definition (Izraz za zaslone ločljivosti 3840 x 2160 paralelno)
+Hz (GHz, MHZ) - Hertz (Giga, Tera Hertz) (Število ciklov na sekundo)
+GB (TB) - Giga Byte (Tera Byte) (Enota za shranjevanje podatkov)
+ms - Milisekunda (Enota za čas)
+IPS -  In-Plane Switching (Tehnologija zaslonske plošče)
+HDMI - High Definition Multimedia Interface (Specifikacija, ki združuje video in zvok v en sam digitalni vmesnik)
+US - United States (Kratica za postvitev ameriških tipk)
+DPI - Dots Per Inch (Določa, kako daleč se premakne kazalec na palec premikanja miške)
+XXL - Extra Extra Large (Velikost)
+GDDR6 (je hitri sinhroni dinamični pomnilnik z naključnim dostopom (SDRAM), 
+	namenjen za podporo aplikacijam, ki zahtevajo visoko pasovno širino, kot so grafične kartice)
+SSD - Solid-State Drive (Mediji za shranjevanje podatkov v računalnikih)
+M.2 Pogoni M.2 niso priključeni na matično ploščo prek kabla, temveč so priključeni z režo za priključek M.2
+NVMe - Non-Volatile Memory express (protokol za shranjevanje in prenos podatkov za pogone SSD)
+RTX - Ray Tracing (je metoda grafičnega upodabljanja, ki simulira fizično obnašanje svetlobe)
+RAM - Random Access Memory (je kratkoročni pomnilnik računalnika, kjer so shranjeni podatki, ki jih procesor trenutno uporablja)
+SATA3 - Serial Advanced Technology Attachment - (Tretja generacija transportnega protokola, ki določa, kako se podatki prenašajo med matično ploščo 
+	računalnika in napravami za masovno shranjevanje)
+RAID1 - Redundant Array of Independent Disks (Je podvajanje podatkov na dva ali več diskov)
+OS - Operating System (Tpravlja vso programsko in strojno opremo v računalniku)
+CPE - Centralna Procesna Enota (Je del računalnika, ki pridobiva in izvaja navodila)
+GPE - Grafična Procesna Enota (Je specializiran procesor, namenjen za pospeševanje upodabljanja grafike)
+MP -  Mega Pixel (Se nanaša na milijon slikovnih pik, ki so majhni kvadratki informacij, ki se združijo v sliko)
+mm (µm) - Milimeter (mikrometer)(Enota za dolžino)
+f/2.8 (Se nanaša na odprtino zaslonke leče, skozi katero prehaja svetloba)
+mAh - milli-Ampere hour (Običajno se uporablja za opis napolnjenosti energije, ki jo bo baterija zadržala, in koliko časa bo naprava delovala, 
+	preden bo baterijo treba ponovno napolniti)

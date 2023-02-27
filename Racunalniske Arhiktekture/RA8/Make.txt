@@ -1,0 +1,1 @@
+nasm -f elf64 RV8.asm -o RV8.o && gcc RV8.o -o RV8 -lc -fPIC -no-pie -z noexecstack; ./RV8

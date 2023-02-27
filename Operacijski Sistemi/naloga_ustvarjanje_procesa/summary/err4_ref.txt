@@ -1,0 +1,1 @@
+./test_2_pozeni_dva_ukaza.sh: line 55: invalid_command: command not found

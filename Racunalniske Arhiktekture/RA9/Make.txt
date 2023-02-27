@@ -1,0 +1,1 @@
+nasm -f elf64 RV9.asm -o RV9.o && gcc RV9.o -o RV9 -lc -fPIC -no-pie -z noexecstack -g; gdb ./RV9

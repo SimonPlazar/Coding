@@ -1,0 +1,1 @@
+nasm -f elf64 RV5.asm -o RV5.o && gcc RV5.o -o RV5 -lc -fPIC -no-pie -z noexecstack; ./RV5

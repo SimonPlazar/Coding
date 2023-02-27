@@ -1,0 +1,17 @@
+C:\Users\simon\source\repos\WebChat\WebChat\bin\Debug\net6.0-windows\WebChat Clien.exe
+C:\Users\simon\source\repos\WebChat\WebChat\bin\Debug\net6.0-windows\WebChat Clien.deps.json
+C:\Users\simon\source\repos\WebChat\WebChat\bin\Debug\net6.0-windows\WebChat Clien.runtimeconfig.json
+C:\Users\simon\source\repos\WebChat\WebChat\bin\Debug\net6.0-windows\WebChat Clien.dll
+C:\Users\simon\source\repos\WebChat\WebChat\bin\Debug\net6.0-windows\WebChat Clien.pdb
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.csproj.AssemblyReference.cache
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat.Form1.resources
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.AssemblyInfoInputs.cache
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.AssemblyInfo.cs
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.dll
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\refint\WebChat Clien.dll
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.pdb
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\WebChat Clien.genruntimeconfig.cache
+C:\Users\simon\source\repos\WebChat\WebChat\obj\Debug\net6.0-windows\ref\WebChat Clien.dll

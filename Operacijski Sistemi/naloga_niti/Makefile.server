@@ -1,0 +1,72 @@
+# Thanks to Job Vranish (https://spin.atomicobject.com/2016/08/26/makefile-c-projects/)
+TARGET_EXEC := var_server
+
+BUILD_DIR := ./build/var_server
+SRC_DIR := ./src/var_server
+EXEC_DIR := ./exec
+
+DBG_BUILD_DIR := $(BUILD_DIR)/debug
+REL_BUILD_DIR := $(BUILD_DIR)/release
+# Find all the C and C++ files we want to compile
+# Note the single quotes around the * expressions. Make will incorrectly expand these otherwise.
+SRCS := $(shell find $(SRC_DIR) -name '*.cpp' -or -name '*.c')
+
+# String substitution for every C/C++ file.
+# As an example, hello.cpp turns into ./build/hello.cpp.o
+DBG_OBJS := $(SRCS:%=$(DBG_BUILD_DIR)/%.o)
+REL_OBJS := $(SRCS:%=$(REL_BUILD_DIR)/%.o)
+
+# String substitution (suffix version without %).
+# As an example, ./build/hello.cpp.o turns into ./build/hello.cpp.d
+DEPS := $(REL_OBJS:.o=.d)
+DEPS += $(DBG_OBJS:.o=.d)
+
+# Every folder in ./src will need to be passed to GCC so that it can find header files
+INC_DIRS := $(shell find $(SRC_DIR) -type d)
+# Add a prefix to INC_DIRS. So moduleA would become -ImoduleA. GCC understands this -I flag
+INC_FLAGS := $(addprefix -I,$(INC_DIRS))
+
+# The -MMD and -MP flags together generate Makefiles for us!
+# These files will have .d instead of .o as the output.
+CPPFLAGS := $(INC_FLAGS) -MMD -MP
+CFLAGS := -Wall -Werror
+CXXFLAGS := -Wall -Werror
+LDFLAGS := -lrt -pthread
+
+all: debug
+debug: CFLAGS += -DDEBUG -g
+debug: CXXFLAGS += -DDEBUG -g
+release: CFLAGS += -O3
+release: CXXFLAGS += -O3
+debug: $(DBG_BUILD_DIR)/$(TARGET_EXEC) $(BASH_TARGETS)
+	mkdir -p $(EXEC_DIR)
+	cp $< $(EXEC_DIR)/
+release: $(REL_BUILD_DIR)/$(TARGET_EXEC) $(BASH_TARGETS)
+	mkdir -p $(EXEC_DIR)
+	cp $< $(EXEC_DIR)/
+
+# The final build step.
+$(DBG_BUILD_DIR)/$(TARGET_EXEC): $(DBG_OBJS)
+	$(CXX) $(DBG_OBJS) -o $@ $(LDFLAGS)
+$(REL_BUILD_DIR)/$(TARGET_EXEC): $(REL_OBJS)
+	$(CXX) $(REL_OBJS) -o $@ $(LDFLAGS)
+
+# Build step for C source
+$(DBG_BUILD_DIR)/%.c.o $(REL_BUILD_DIR)/%.c.o: %.c
+	mkdir -p $(dir $@)
+	$(CC) $(CPPFLAGS) $(CFLAGS) -c $< -o $@
+
+# Build step for C++ source
+$(DBG_BUILD_DIR)/%.cpp.o $(REL_BUILD_DIR)/%.cpp.o: %.cpp
+	mkdir -p $(dir $@)
+	$(CXX) $(CPPFLAGS) $(CXXFLAGS) -c $< -o $@
+
+.PHONY: clean
+clean:
+	if [ -d $(BUILD_DIR) ]; then rm -r "$(BUILD_DIR)"; fi
+	if [ -d $(EXEC_DIR) ]; then rm -r "$(EXEC_DIR)"; fi
+
+# Include the .d makefiles. The - at the front suppresses the errors of missing
+# Makefiles. Initially, all the .d files will be missing, and we don't want those
+# errors to show up.
+-include $(DEPS)

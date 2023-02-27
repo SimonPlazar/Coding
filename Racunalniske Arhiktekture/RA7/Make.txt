@@ -1,0 +1,1 @@
+nasm -f elf64 RV7.asm -o RV7.o && gcc RV7.o -o RV7 -lc -fPIC -no-pie -z noexecstack; ./RV7

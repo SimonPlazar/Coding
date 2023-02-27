@@ -1,0 +1,1 @@
+nasm -f elf64 RV4.asm -o RV4.o && gcc RV4.o -lc -fPIC -no-pie -z noexecstack; ./a.out
