@@ -1,0 +1,23 @@
+a:=lshift(smask+1); 			# v smask je shranjeno 255 (00ff) + 1 = 256 (lshift pomnozi z 2)
+mar:=a; rd; 					# prebere vrednost v registru a ki kaze na pomnilnik (512)
+rd; 							# bere
+b:=mbr; 						# mbr + 1
+
+f:=lshift(1+1); 				# dobimo dec 4 (2*2)
+f:=lshift(f); 					# pomnozimo to kar je v f registru z 2
+a:=a+f; 						# 512 + 8 = 520 (v a shranimo zacetno lokacijo)
+d:=smask+1; 					# 255 + 1 = 256 (na to lokacijo se bo shranila vsota)
+c:=0; 							# c nastavimo na 0 (vsota)
+
+# loop
+1:alu := b; if z then goto 2; 	# ce je b 0 potem skoci na label 2
+mar:=a; rd; 					# preberemo iz trenutnega mesta a
+rd; 							# beremo
+a:=a+1;							# a inkrementiramo
+c:=c+mbr; 						# pristejemo k vsoti
+b := b + (-1); 					# b dekrementiramo
+goto 1;							# skocimo na label 1
+
+# konec
+2: mar:=d; mbr:=c; wr; 			# zapisemo vrednost v mbr (vsota) na lokacijo mar (naslov 256)
+wr;								# pise

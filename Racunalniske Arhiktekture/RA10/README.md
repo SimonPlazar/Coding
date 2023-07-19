@@ -1,0 +1,3 @@
+# RV10: ASM_tolower
+
+V zbirniku napišite funkcijo "toLowerUnderscore", ki znakovni niz pretvori v male črke in presledke zamenja z znaki za podčrtaj ("_"). Uporabite namenske instrukcije in registre (esi, edi; lodsb, stosb, cld, std). Za branje in pisanje kličite prekinitev z instrukcijo syscall ali int (int je poklicana tudi pri syscall, lahko tudi npr. int 10h). V glavnem programu prikažite delovanje funkcije.
