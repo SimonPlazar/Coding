@@ -1,3 +1,0 @@
-D:/Coding/Algoritmi/Vaja2Algoritmi/cmake-build-debug/CMakeFiles/Vaja2Algoritmi.dir
-D:/Coding/Algoritmi/Vaja2Algoritmi/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Algoritmi/Vaja2Algoritmi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
