@@ -1,0 +1,11 @@
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\bin\Debug\UI - Nevronska Mreza.exe.config
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\bin\Debug\UI - Nevronska Mreza.exe
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\bin\Debug\UI - Nevronska Mreza.pdb
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI - Nevronska Mreza.csproj.AssemblyReference.cache
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI - Nevronska Mreza.csproj.SuggestedBindingRedirects.cache
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI___Nevronska_Mreza.Form1.resources
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI___Nevronska_Mreza.Properties.Resources.resources
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI - Nevronska Mreza.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI - Nevronska Mreza.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI - Nevronska Mreza.exe
+C:\Users\simon\source\repos\UI - Nevronska Mreza\UI - Nevronska Mreza\obj\Debug\UI - Nevronska Mreza.pdb

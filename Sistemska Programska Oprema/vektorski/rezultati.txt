@@ -1,0 +1,19 @@
+./spo_simd
+First: 27.202740 	Last: 3.891133
+Time iter mul: 3402 ms
+First: 27.202740	Last: 3.891133
+Time vec mul: 276 ms
+Max: 99.995133	Min: 0.000000
+Time iter max min: 251 ms
+Max: 99.995133	Min: 0.000000
+Time vec max min: 219 ms
+
+./spo_simd_o2
+First: 0.488834 	Last: 4.699298
+Time iter mul: 303 ms
+First: 0.488834	Last: 4.699298
+Time vec mul: 147 ms
+Max: 99.986626	Min: 0.000000
+Time iter max min: 139 ms
+Max: 99.986626	Min: 0.000000
+Time vec max min: 64 ms
