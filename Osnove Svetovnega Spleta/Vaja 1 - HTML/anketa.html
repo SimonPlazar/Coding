@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Simonova spletna stran</title>
+	<meta charset="UTF-8">
+</head>
+
+<body>
+	<header>
+		<h1>Simonova spletna stran</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Domov</a></li>
+				<li><a href="ponudba.html">Ponudba</a></li>
+				<li><a href="anketa.html">Anketa</a></li>
+				<li><a href="https://estudij.um.si">Vaje</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div>
+		<h2>Anketa</h2>
+		<form action="anketa.html" id="anketa">
+		<table>
+		<tr>
+		<td><label >Ime in priimek:</label></td>
+		<td><input type="text" id="name" name="name"></td>
+		</tr>
+		
+		<tr>
+		<td><label>Kraj:</label></td>
+		<td>
+		<input type="text" id="kraji" name="kraji" list="kraj">
+		<datalist id="kraj">
+			<option value="Ptuj">
+			<option value="Maribor">
+			<option value="Celje">
+			<option value="Novo Mesto">
+			<option value="Ljubljana">
+		</datalist>
+		</td>
+		</tr>
+			
+		<tr>
+		<td><label>Elektronska pošta:</label></td>
+		<td><input type="email" id="mail" name="mail"></td>
+		</tr>
+			
+		<tr>
+		<td><label>Tip vozila:</label></td>
+		<td><label>
+			<input type="radio" id="kombilimuzina" name="tip_vozila" value="kombilimuzina" checked="checked">
+			Kombilimuzina
+			</label>
+
+			<label>
+			<input type="radio" id="limuzina" name="tip_vozila" value="limuzina">
+			Limuzina
+			</label>
+			
+			<label>
+			<input type="radio" id="enoprostorec" name="tip_vozila" value="enoprostorec">
+			Enoprostorec
+			</label>
+			
+			<label>
+			<input type="radio" id="karavan" name="tip_vozila" value="karavan">
+			Karavan
+			</label>
+			
+			<label>
+			<input type="radio" id="terensko_vozilo" name="tip_vozila" value="terensko_vozilo">
+			Terensko vozilo
+			</label></td>
+		</tr>
+		
+		<tr>
+		<td><label>Priljubljene znamke:</label></td>
+		<td><label>
+			<input type="checkbox" name="znamke" value="Audi">
+			Audi
+			</label>
+			
+			<label>
+			<input type="checkbox" name="znamke" value="BMW">
+			BMW
+			</label>
+			
+			<label>
+			<input type="checkbox" name="znamke" value="Ford">
+			Ford
+			</label>
+			
+			<label>
+			<input type="checkbox" name="znamke" value="Honda">
+			Honda
+			</label>
+			
+			<label>
+			<input type="checkbox" name="znamke" value="Mercedes">
+			Mercedes
+			</label>
+			
+			<label>
+			<input type="checkbox" name="znamke" value="Renault">
+			Renault
+			</label></td>
+		</tr>
+
+		<tr>
+		<td><label>Želje:</label></td>
+		<td><textarea rows="10" cols="60" name="zelje" form="anketa"></textarea></td>
+		</tr>
+		
+		<tr>
+		<td></td>
+		<td><label></label><input type="submit" value="Pošlji" formmethod="GET"></td>
+		</tr>
+		</table>
+		</form>
+	</div>
+</body>
+</html>

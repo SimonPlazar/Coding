@@ -1,0 +1,14 @@
+table{
+    border:black solid 1px;  
+}
+td{
+    background-color:grey;
+    height:30px;
+    width:30px;
+}
+.hit{
+    background-color:red !important;
+}
+.miss{
+    background-color:blue !important;
+}
