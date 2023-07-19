@@ -1,0 +1,38 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/simon/Desktop/primeri'
+ 
+echo "BUILD"
+ 
+echo "====="
+ 
+gcc -g -Wall -Wextra -Werror -Wpedantic -o structures structures.c
+ 
+gcc -g -Wall -Wextra -Werror -Wpedantic -m32 -Wno-format -o structures_32 structures.c
+ 
+gcc -g -Wall -Wextra -Werror -Wpedantic -o pointers pointers.c
+ 
+gcc -g -Wall -Wextra -Werror -Wpedantic -o bits bits.c
+ 
+echo
+ 
+echo "RUN structures"
+ 
+echo "=============="
+ 
+./structures
+ 
+echo
+ 
+echo "RUN structures_32"
+echo "================="
+./structures_32
+echo
+echo "RUN pointers"
+echo "============"
+./pointers
+echo
+echo "RUN bits"
+echo "========"
+./bits
+make: Leaving directory '/home/simon/Desktop/primeri'
+ 

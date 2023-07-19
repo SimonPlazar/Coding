@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Simonova spletna stran za JavaScript</title>
+	<meta charset="UTF-8">
+	<style>
+        table{
+            border-collapse: collapse;
+        }
+        tr{
+            padding: 0;
+            margin: 0;
+        }
+		
+        td{
+            border: 1px solid black;
+            width: 32px;
+            height: 32px;
+            background-color: silver;
+            padding: 0;
+			margin: 0;
+        }
+    </style>
+	
+	<script>
+	function main(){
+		var sirina = Number(window.prompt("Type a number between 10 and 40 for the width", ""));
+		while(sirina < 10 || sirina > 40 || isNaN(sirina)){
+			sirina = Number(window.prompt("Please type a number between 10 and 40 for the width", ""));
+		}
+		
+		var dolzina = Number(window.prompt("Type a number between 10 and 40 for the height", ""));
+		while(dolzina < 10 || dolzina > 40 || isNaN(dolzina)){
+			dolzina = Number(window.prompt("Please type a number between 10 and 40 for the height", ""));
+		}
+		
+		CreateTableMenu();
+
+        br();
+
+        CreateGrid(dolzina, sirina);
+		
+		var tabela1 = document.getElementById('tabela1');
+        tabela1.onclick = function (event) {
+            let target = event.target;
+            if (target.tagName == 'TD')
+                 slika = target.style.backgroundImage;
+        }
+
+        var tabela2 = document.getElementById("tabela2");
+        tabela2.onclick = function (event) {
+            let target = event.target;
+            if(target.tagName == 'TD') {
+                target.style.backgroundImage = slika;
+             }            
+        }
+	}
+	
+	function CreateTableMenu(){
+        var body = document.getElementsByTagName("body")[0];
+        var table = document.createElement("table");
+        var tablebody = document.createElement("tbody");
+        var row = document.createElement("tr");
+        for(let i = 0; i < 16; i++){
+            let td = document.createElement("td");
+            row.append(td);
+            td.style.backgroundImage = "url(images/sprite" + (i + 1) + ".gif)";
+        }
+        tablebody.append(row);
+        table.append(tablebody);
+        table.setAttribute("id", "tabela1");
+        body.append(table);
+    }
+	
+	function CreateGrid(row, col){
+        var body = document.getElementsByTagName("body")[0];
+        var table2 = document.createElement("table");
+        var tablebody = document.createElement("tbody");
+        for(var i = 0; i < row; i++){
+            let row = document.createElement("tr");
+            for(var j = 0; j < col; j++){
+                let td = document.createElement("td");
+                row.append(td);
+            }
+            tablebody.append(row);
+        }
+        table2.append(tablebody);
+        table2.setAttribute("id", "tabela2");
+        body.append(table2);
+    }
+	
+	function br(){
+		var body = document.getElementsByTagName("body")[0];
+        var br = document.createElement("br");
+        body.append(br);
+	}
+	
+	</script>
+</head>
+<body onload="main()">
+
+</body>
+</html>
