@@ -1,3 +1,0 @@
-D:/Coding/Programiranje I/Vaja 2-Avto/cmake-build-debug/CMakeFiles/Vaja_2_Avto.dir
-D:/Coding/Programiranje I/Vaja 2-Avto/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Programiranje I/Vaja 2-Avto/cmake-build-debug/CMakeFiles/rebuild_cache.dir

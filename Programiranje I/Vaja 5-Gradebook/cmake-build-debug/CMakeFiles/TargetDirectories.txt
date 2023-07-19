@@ -1,3 +1,0 @@
-D:/Coding/Programiranje I/Vaja 5-Gradebook/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Programiranje I/Vaja 5-Gradebook/cmake-build-debug/CMakeFiles/Vaja_5_Gradebook.dir
-D:/Coding/Programiranje I/Vaja 5-Gradebook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
