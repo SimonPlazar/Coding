@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2021.3.3/bin/ninja/win/ninja.exe" -G Ninja "D:\Coding\Podatkovne Strukture\Vaja9Strukture"
--- Configuring done
--- Generating done
--- Build files have been written to: D:/Coding/Podatkovne Strukture/Vaja9Strukture/cmake-build-debug

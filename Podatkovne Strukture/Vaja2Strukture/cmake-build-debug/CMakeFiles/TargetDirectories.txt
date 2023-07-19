@@ -1,3 +1,0 @@
-D:/Coding/Podatkovne Strukture/Vaja2Strukture/cmake-build-debug/CMakeFiles/Vaja2Strukture.dir
-D:/Coding/Podatkovne Strukture/Vaja2Strukture/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Podatkovne Strukture/Vaja2Strukture/cmake-build-debug/CMakeFiles/rebuild_cache.dir

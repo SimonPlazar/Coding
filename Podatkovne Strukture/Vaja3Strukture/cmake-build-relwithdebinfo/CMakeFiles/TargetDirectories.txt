@@ -1,3 +1,0 @@
-D:/Coding/Podatkovne Strukture/Vaja3Strukture/cmake-build-relwithdebinfo/CMakeFiles/Vaja3Strukture.dir
-D:/Coding/Podatkovne Strukture/Vaja3Strukture/cmake-build-relwithdebinfo/CMakeFiles/edit_cache.dir
-D:/Coding/Podatkovne Strukture/Vaja3Strukture/cmake-build-relwithdebinfo/CMakeFiles/rebuild_cache.dir
