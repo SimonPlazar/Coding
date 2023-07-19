@@ -1,3 +1,0 @@
-D:/Coding/Podatkovne Strukture/Vaja5Strukture/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Coding/Podatkovne Strukture/Vaja5Strukture/cmake-build-debug/CMakeFiles/Vaja5Strukture.dir
-D:/Coding/Podatkovne Strukture/Vaja5Strukture/cmake-build-debug/CMakeFiles/edit_cache.dir

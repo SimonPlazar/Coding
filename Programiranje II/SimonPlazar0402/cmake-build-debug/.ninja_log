@@ -1,7 +1,0 @@
-# ninja log v5
-0	569	6692551623345088	CMakeFiles/SimonPlazar0402.dir/Person.cpp.obj	78d67705dd7381ec
-37	574	6692551623386963	CMakeFiles/SimonPlazar0402.dir/Date.cpp.obj	d18612eea2f23991
-25	589	6696557032241668	CMakeFiles/SimonPlazar0402.dir/main.cpp.obj	cffd2addfe6aae4f
-2	605	6696557032398467	CMakeFiles/SimonPlazar0402.dir/Event.cpp.obj	f36beac964e45368
-29	673	6696557033078244	CMakeFiles/SimonPlazar0402.dir/Conference.cpp.obj	d6e5d120988ab60a
-673	838	6696557034705945	SimonPlazar0402.exe	f869524b6d95adde

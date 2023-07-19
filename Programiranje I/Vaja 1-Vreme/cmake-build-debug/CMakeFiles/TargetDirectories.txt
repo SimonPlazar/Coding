@@ -1,3 +1,0 @@
-D:/Coding/Programiranje I/Vaja 1-Vreme/cmake-build-debug/CMakeFiles/Vaja_1_Vreme.dir
-D:/Coding/Programiranje I/Vaja 1-Vreme/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Programiranje I/Vaja 1-Vreme/cmake-build-debug/CMakeFiles/rebuild_cache.dir

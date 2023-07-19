@@ -1,3 +1,0 @@
-D:/Coding/Programiranje I/Vaja 6-Vislice/cmake-build-debug/CMakeFiles/Vaja_6_Vislice.dir
-D:/Coding/Programiranje I/Vaja 6-Vislice/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Programiranje I/Vaja 6-Vislice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

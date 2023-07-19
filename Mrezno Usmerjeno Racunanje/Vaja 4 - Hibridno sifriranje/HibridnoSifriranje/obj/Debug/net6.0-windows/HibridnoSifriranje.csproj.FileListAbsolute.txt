@@ -1,0 +1,17 @@
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\bin\Debug\net6.0-windows\HibridnoSifriranje.exe
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\bin\Debug\net6.0-windows\HibridnoSifriranje.deps.json
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\bin\Debug\net6.0-windows\HibridnoSifriranje.runtimeconfig.json
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\bin\Debug\net6.0-windows\HibridnoSifriranje.dll
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\bin\Debug\net6.0-windows\HibridnoSifriranje.pdb
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.csproj.AssemblyReference.cache
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.Form1.resources
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.csproj.GenerateResource.cache
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.AssemblyInfoInputs.cache
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.AssemblyInfo.cs
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.csproj.CoreCompileInputs.cache
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.dll
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\refint\HibridnoSifriranje.dll
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.pdb
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\HibridnoSifriranje.genruntimeconfig.cache
+C:\Users\simon\source\repos\HibridnoSifriranje\HibridnoSifriranje\obj\Debug\net6.0-windows\ref\HibridnoSifriranje.dll
