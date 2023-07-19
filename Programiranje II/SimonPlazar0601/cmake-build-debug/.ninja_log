@@ -1,9 +1,0 @@
-# ninja log v5
-26	310	6708708367256248	CMakeFiles/SimonPlazar0601.dir/Shape2D.cpp.obj	79564991ca35da4d
-32	580	6708708369959034	CMakeFiles/SimonPlazar0601.dir/Canvas.cpp.obj	b584f9b1cfb9b4f1
-23	554	6707028064765699	CMakeFiles/SimonPlazar0601.dir/PrintUtility.cpp.obj	de4fdabdf22a46a2
-2	577	6708708369919130	CMakeFiles/SimonPlazar0601.dir/main.cpp.obj	2ca7696bc327ab6f
-35	580	6708708369959034	CMakeFiles/SimonPlazar0601.dir/Circle.cpp.obj	16ee3672a1864d4a
-29	534	6708708369500249	CMakeFiles/SimonPlazar0601.dir/Rectangle.cpp.obj	2797112535bf5850
-40	574	6708708369909155	CMakeFiles/SimonPlazar0601.dir/Triangle.cpp.obj	cbaf70b0827d6217
-580	746	6708708371594658	SimonPlazar0601.exe	516011b697fbb570

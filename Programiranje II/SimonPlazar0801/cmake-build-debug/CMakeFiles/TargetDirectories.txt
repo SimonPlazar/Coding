@@ -1,3 +1,0 @@
-D:/Coding/Programiranje II/SimonPlazar0801/cmake-build-debug/CMakeFiles/SimonPlazar0801Test.dir
-D:/Coding/Programiranje II/SimonPlazar0801/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Coding/Programiranje II/SimonPlazar0801/cmake-build-debug/CMakeFiles/rebuild_cache.dir

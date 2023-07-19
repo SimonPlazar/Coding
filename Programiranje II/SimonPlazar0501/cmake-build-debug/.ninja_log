@@ -1,9 +1,0 @@
-# ninja log v5
-34	657	6702681314866983	CMakeFiles/SimonPlazar0501.dir/main.cpp.obj	273a5680234f25e0
-23	542	6699197050280202	CMakeFiles/SimonPlazar0501.dir/Date.cpp.obj	b29b41021fa62f77
-2	657	6702681314866983	CMakeFiles/SimonPlazar0501.dir/Artwork.cpp.obj	304940a5029cd3bf
-42	712	6702681315425775	CMakeFiles/SimonPlazar0501.dir/Gallery.cpp.obj	eba4fea78b3dd9a7
-38	655	6702681314847046	CMakeFiles/SimonPlazar0501.dir/Painting.cpp.obj	36f7c63d20640822
-511	661	6702681511507822	SimonPlazar0501.exe	e08819747b339bb8
-2	511	6702681510031490	CMakeFiles/SimonPlazar0501.dir/Sculpture.cpp.obj	ed243da974d9c987
-2	505	6699198165934959	CMakeFiles/SimonPlazar0501.dir/Artist.cpp.obj	7911fedc0744f941
