@@ -1,1 +1,0 @@
-nasm -f elf64 RV10.asm -o RV10.o && gcc RV10.o -o RV10 -lc -fPIC -no-pie -z noexecstack; ./RV10
