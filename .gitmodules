@@ -25,3 +25,6 @@
 [submodule "Operacijski Sistemi"]
 	path = Operacijski Sistemi
 	url = https://github.com/SimonPlazar/Operacijski-Sistemi.git
+[submodule "Osnove Svetovnega Spleta"]
+	path = Osnove Svetovnega Spleta
+	url = https://github.com/SimonPlazar/Osnove-Svetovnega-Spleta.git
