@@ -28,3 +28,6 @@
 [submodule "Osnove Svetovnega Spleta"]
 	path = Osnove Svetovnega Spleta
 	url = https://github.com/SimonPlazar/Osnove-Svetovnega-Spleta.git
+[submodule "Algoritmi in Podatkovne Strukture"]
+	path = Algoritmi in Podatkovne Strukture
+	url = https://github.com/SimonPlazar/Algoritmi-in-Podatkovne-Strukture.git
