@@ -16,3 +16,6 @@
 [submodule "Racunalniska Grafika"]
 	path = Racunalniska Grafika
 	url = https://github.com/SimonPlazar/Racunalniska-Grafika.git
+[submodule "Aplikacije Racunalniskih Algoritmov"]
+	path = Aplikacije Racunalniskih Algoritmov
+	url = https://github.com/SimonPlazar/Aplikacije-Racunalniskih-Algoritmov.git
