@@ -1,2 +1,0 @@
-sort: unrecognized option '--not-a-flag'
-Try 'sort --help' for more information.
