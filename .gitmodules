@@ -43,3 +43,6 @@
 [submodule "Signali in Slike"]
 	path = Signali in Slike
 	url = https://github.com/SimonPlazar/Signali-in-Slike.git
+[submodule "Sistemska Programska Oprema"]
+	path = Sistemska Programska Oprema
+	url = https://github.com/SimonPlazar/Sistemska-Programska-Oprema.git
