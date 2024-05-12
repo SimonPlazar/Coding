@@ -22,3 +22,6 @@
 [submodule "Mrezno Usmerjeno Racunanje"]
 	path = Mrezno Usmerjeno Racunanje
 	url = https://github.com/SimonPlazar/Mrezno-Usmerjeno-Racunanje.git
+[submodule "Operacijski Sistemi"]
+	path = Operacijski Sistemi
+	url = https://github.com/SimonPlazar/Operacijski-Sistemi.git
