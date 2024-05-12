@@ -49,3 +49,6 @@
 [submodule "Umetna Inteligenca"]
 	path = Umetna Inteligenca
 	url = https://github.com/SimonPlazar/Umetna-Inteligenca.git
+[submodule "Uvod v Racunalnisko Geometrijo"]
+	path = Uvod v Racunalnisko Geometrijo
+	url = https://github.com/SimonPlazar/Uvod-v-Racunalnisko-Geometrijo.git
