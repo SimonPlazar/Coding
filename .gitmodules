@@ -4,3 +4,6 @@
 [submodule "Multimedija"]
 	path = Multimedija
 	url = https://github.com/SimonPlazar/Multimedija.git
+[submodule "Snovanje Racunalniskih in Digitalnih Sistemov"]
+	path = Snovanje Racunalniskih in Digitalnih Sistemov
+	url = https://github.com/SimonPlazar/Snovanje-Racunalniskih-in-Digitalnih-Sistemov.git
