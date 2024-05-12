@@ -10,3 +10,6 @@
 [submodule "Preizkusanje Programske Opreme"]
 	path = Preizkusanje Programske Opreme
 	url = https://github.com/SimonPlazar/Preizkusanje-Programske-Opreme.git
+[submodule "Vgrajeni Sistemi"]
+	path = Vgrajeni Sistemi
+	url = https://github.com/SimonPlazar/Vgrajeni-Sistemi.git
