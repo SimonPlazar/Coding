@@ -34,3 +34,6 @@
 [submodule "Programiranje I"]
 	path = Programiranje I
 	url = https://github.com/SimonPlazar/Programiranje-I.git
+[submodule "Programiranje II"]
+	path = Programiranje II
+	url = https://github.com/SimonPlazar/Programiranje-II.git
