@@ -13,3 +13,6 @@
 [submodule "Vgrajeni Sistemi"]
 	path = Vgrajeni Sistemi
 	url = https://github.com/SimonPlazar/Vgrajeni-Sistemi.git
+[submodule "Racunalniska Grafika"]
+	path = Racunalniska Grafika
+	url = https://github.com/SimonPlazar/Racunalniska-Grafika.git
