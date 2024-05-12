@@ -7,3 +7,6 @@
 [submodule "Snovanje Racunalniskih in Digitalnih Sistemov"]
 	path = Snovanje Racunalniskih in Digitalnih Sistemov
 	url = https://github.com/SimonPlazar/Snovanje-Racunalniskih-in-Digitalnih-Sistemov.git
+[submodule "Preizkusanje Programske Opreme"]
+	path = Preizkusanje Programske Opreme
+	url = https://github.com/SimonPlazar/Preizkusanje-Programske-Opreme.git
