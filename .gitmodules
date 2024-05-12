@@ -19,3 +19,6 @@
 [submodule "Aplikacije Racunalniskih Algoritmov"]
 	path = Aplikacije Racunalniskih Algoritmov
 	url = https://github.com/SimonPlazar/Aplikacije-Racunalniskih-Algoritmov.git
+[submodule "Mrezno Usmerjeno Racunanje"]
+	path = Mrezno Usmerjeno Racunanje
+	url = https://github.com/SimonPlazar/Mrezno-Usmerjeno-Racunanje.git
