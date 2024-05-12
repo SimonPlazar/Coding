@@ -31,3 +31,6 @@
 [submodule "Algoritmi in Podatkovne Strukture"]
 	path = Algoritmi in Podatkovne Strukture
 	url = https://github.com/SimonPlazar/Algoritmi-in-Podatkovne-Strukture.git
+[submodule "Programiranje I"]
+	path = Programiranje I
+	url = https://github.com/SimonPlazar/Programiranje-I.git
