@@ -1,7 +1,0 @@
-Najboljsi igralec: g
-Tekmovalec 	 Geslo 	 	 Stevilo ugibanj 	 Cas
-g                "world"         3                       8s
-s                "no"            5                       13s
-d                "buy"           10                      6s
-f                "mild"          10                      9s
-h                "factor"        10                      12s

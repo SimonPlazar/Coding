@@ -19,3 +19,36 @@
 [submodule "Aplikacije Racunalniskih Algoritmov"]
 	path = Aplikacije Racunalniskih Algoritmov
 	url = https://github.com/SimonPlazar/Aplikacije-Racunalniskih-Algoritmov.git
+[submodule "Mrezno Usmerjeno Racunanje"]
+	path = Mrezno Usmerjeno Racunanje
+	url = https://github.com/SimonPlazar/Mrezno-Usmerjeno-Racunanje.git
+[submodule "Operacijski Sistemi"]
+	path = Operacijski Sistemi
+	url = https://github.com/SimonPlazar/Operacijski-Sistemi.git
+[submodule "Osnove Svetovnega Spleta"]
+	path = Osnove Svetovnega Spleta
+	url = https://github.com/SimonPlazar/Osnove-Svetovnega-Spleta.git
+[submodule "Algoritmi in Podatkovne Strukture"]
+	path = Algoritmi in Podatkovne Strukture
+	url = https://github.com/SimonPlazar/Algoritmi-in-Podatkovne-Strukture.git
+[submodule "Programiranje I"]
+	path = Programiranje I
+	url = https://github.com/SimonPlazar/Programiranje-I.git
+[submodule "Programiranje II"]
+	path = Programiranje II
+	url = https://github.com/SimonPlazar/Programiranje-II.git
+[submodule "Racunalniske Arhiktekture"]
+	path = Racunalniske Arhiktekture
+	url = https://github.com/SimonPlazar/Racunalniske-Arhiktekture.git
+[submodule "Signali in Slike"]
+	path = Signali in Slike
+	url = https://github.com/SimonPlazar/Signali-in-Slike.git
+[submodule "Sistemska Programska Oprema"]
+	path = Sistemska Programska Oprema
+	url = https://github.com/SimonPlazar/Sistemska-Programska-Oprema.git
+[submodule "Umetna Inteligenca"]
+	path = Umetna Inteligenca
+	url = https://github.com/SimonPlazar/Umetna-Inteligenca.git
+[submodule "Uvod v Racunalnisko Geometrijo"]
+	path = Uvod v Racunalnisko Geometrijo
+	url = https://github.com/SimonPlazar/Uvod-v-Racunalnisko-Geometrijo.git
