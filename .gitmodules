@@ -46,3 +46,6 @@
 [submodule "Sistemska Programska Oprema"]
 	path = Sistemska Programska Oprema
 	url = https://github.com/SimonPlazar/Sistemska-Programska-Oprema.git
+[submodule "Umetna Inteligenca"]
+	path = Umetna Inteligenca
+	url = https://github.com/SimonPlazar/Umetna-Inteligenca.git
