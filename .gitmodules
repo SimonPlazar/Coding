@@ -37,3 +37,6 @@
 [submodule "Programiranje II"]
 	path = Programiranje II
 	url = https://github.com/SimonPlazar/Programiranje-II.git
+[submodule "Racunalniske Arhiktekture"]
+	path = Racunalniske Arhiktekture
+	url = https://github.com/SimonPlazar/Racunalniske-Arhiktekture.git
