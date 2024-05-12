@@ -40,3 +40,6 @@
 [submodule "Racunalniske Arhiktekture"]
 	path = Racunalniske Arhiktekture
 	url = https://github.com/SimonPlazar/Racunalniske-Arhiktekture.git
+[submodule "Signali in Slike"]
+	path = Signali in Slike
+	url = https://github.com/SimonPlazar/Signali-in-Slike.git
