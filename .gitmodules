@@ -52,3 +52,6 @@
 [submodule "Uvod v Racunalnisko Geometrijo"]
 	path = Uvod v Racunalnisko Geometrijo
 	url = https://github.com/SimonPlazar/Uvod-v-Racunalnisko-Geometrijo.git
+[submodule "Interakcija Clovek-Racunalnik"]
+	path = Interakcija Clovek-Racunalnik
+	url = https://github.com/SimonPlazar/Interakcija-Clovek-Racunalnik.git
