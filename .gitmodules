@@ -55,3 +55,6 @@
 [submodule "Interakcija Clovek-Racunalnik"]
 	path = Interakcija Clovek-Racunalnik
 	url = https://github.com/SimonPlazar/Interakcija-Clovek-Racunalnik.git
+[submodule "Racunalniska Multimedija"]
+	path = Racunalniska Multimedija
+	url = https://github.com/SimonPlazar/Racunalniska-Multimedija.git
