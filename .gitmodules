@@ -58,3 +58,6 @@
 [submodule "Racunalniska Multimedija"]
 	path = Racunalniska Multimedija
 	url = https://github.com/SimonPlazar/Racunalniska-Multimedija.git
+[submodule "Spletne Tehnologije"]
+	path = Spletne Tehnologije
+	url = https://github.com/SimonPlazar/Spletne-Tehnologije.git
