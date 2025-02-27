@@ -61,3 +61,6 @@
 [submodule "Spletne Tehnologije"]
 	path = Spletne Tehnologije
 	url = https://github.com/SimonPlazar/Spletne-Tehnologije.git
+[submodule "Izbrani Algoritmi"]
+	path = Izbrani Algoritmi
+	url = https://github.com/SimonPlazar/Izbrani-Algoritmi.git
