@@ -67,3 +67,6 @@
 [submodule "Domensko Specificni Modelirni Jeziki"]
 	path = Domensko Specificni Modelirni Jeziki
 	url = https://github.com/SimonPlazar/Domensko-Specificni-Modelirni-Jeziki
+[submodule "Racunanje v Oblaku"]
+	path = Racunanje v Oblaku
+	url = https://github.com/SimonPlazar/Racunanje-v-Oblaku.git
