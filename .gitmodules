@@ -55,3 +55,18 @@
 [submodule "Interakcija Clovek-Racunalnik"]
 	path = Interakcija Clovek-Racunalnik
 	url = https://github.com/SimonPlazar/Interakcija-Clovek-Racunalnik.git
+[submodule "Racunalniska Multimedija"]
+	path = Racunalniska Multimedija
+	url = https://github.com/SimonPlazar/Racunalniska-Multimedija.git
+[submodule "Spletne Tehnologije"]
+	path = Spletne Tehnologije
+	url = https://github.com/SimonPlazar/Spletne-Tehnologije.git
+[submodule "Izbrani Algoritmi"]
+	path = Izbrani Algoritmi
+	url = https://github.com/SimonPlazar/Izbrani-Algoritmi.git
+[submodule "Domensko Specificni Modelirni Jeziki"]
+	path = Domensko Specificni Modelirni Jeziki
+	url = https://github.com/SimonPlazar/Domensko-Specificni-Modelirni-Jeziki
+[submodule "Racunanje v Oblaku"]
+	path = Racunanje v Oblaku
+	url = https://github.com/SimonPlazar/Racunanje-v-Oblaku.git
