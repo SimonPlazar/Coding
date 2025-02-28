@@ -64,9 +64,9 @@
 [submodule "Izbrani Algoritmi"]
 	path = Izbrani Algoritmi
 	url = https://github.com/SimonPlazar/Izbrani-Algoritmi.git
-[submodule "Rcunanje v Oblaku"]
-	path = Rcunanje v Oblaku
-	url = https://github.com/SimonPlazar/Racunanje-v-Oblaku.git
 [submodule "Domensko Specificni Modelirni Jeziki"]
 	path = Domensko Specificni Modelirni Jeziki
 	url = https://github.com/SimonPlazar/Domensko-Specificni-Modelirni-Jeziki
+[submodule "Racunanje v Oblaku"]
+	path = Racunanje v Oblaku
+	url = https://github.com/SimonPlazar/Racunanje-v-Oblaku.git
