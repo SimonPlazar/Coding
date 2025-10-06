@@ -73,3 +73,6 @@
 [submodule "Povezljivi Sistemi in Inteligentne Storitve"]
 	path = Povezljivi Sistemi in Inteligentne Storitve
 	url = https://github.com/SimonPlazar/PSIS-TradingBot-MonoRepo.git
+[submodule "Racunalniska Obdelava Signalov in Slik"]
+	path = Racunalniska Obdelava Signalov in Slik
+	url = https://github.com/SimonPlazar/Racunalniska-Obdelava-Signalov-in-Slik.git
