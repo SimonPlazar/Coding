@@ -76,3 +76,6 @@
 [submodule "Racunalniska Obdelava Signalov in Slik"]
 	path = Racunalniska Obdelava Signalov in Slik
 	url = https://github.com/SimonPlazar/Racunalniska-Obdelava-Signalov-in-Slik.git
+[submodule "Jezikovne Tehnologije"]
+	path = Jezikovne Tehnologije
+	url = https://github.com/SimonPlazar/Jezikovne-Tehnologije.git
