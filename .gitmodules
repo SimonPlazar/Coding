@@ -79,3 +79,6 @@
 [submodule "Izbrani Algoritmi Kombinatorike"]
 	path = Izbrani Algoritmi Kombinatorike
 	url = https://github.com/SimonPlazar/Izbrani-Algoritmi-Kombinatorike.git
+[submodule "Povezljivi Sistemi in Inteligentne Storitve"]
+	path = Povezljivi Sistemi in Inteligentne Storitve
+	url = https://github.com/FERI-EXERCISES/PSIS-TradingBot-MonoRepo.git
