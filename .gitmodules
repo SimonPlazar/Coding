@@ -82,3 +82,18 @@
 [submodule "Povezljivi Sistemi in Inteligentne Storitve"]
 	path = Povezljivi Sistemi in Inteligentne Storitve
 	url = https://github.com/FERI-EXERCISES/PSIS-TradingBot-MonoRepo.git
+[submodule "Napredne Arhitekture in Ucenje Globokih Nevronskih Mrez"]
+	path = Napredne Arhitekture in Ucenje Globokih Nevronskih Mrez
+	url = https://github.com/FERI-EXERCISES/Napredne-Arhitekture-in-Ucenje-Globokih-Nevronskih-Mrez.git
+[submodule "Evolucijsko Racunanje"]
+	path = Evolucijsko Racunanje
+	url = https://github.com/FERI-EXERCISES/Evolucijsko-Racunanje.git
+[submodule "Racunalniski Vid"]
+	path = Racunalniski Vid
+	url = https://github.com/FERI-EXERCISES/Racunalniski-Vid.git
+[submodule "Vitko Upravljanje v Inzenirstvu"]
+	path = Vitko Upravljanje v Inzenirstvu
+	url = https://github.com/FERI-EXERCISES/Vitko-Upravljanje-v-Inzenirstvu.git
+[submodule "Napredna Obdelava Slik"]
+	path = Napredna Obdelava Slik
+	url = https://github.com/FERI-EXERCISES/Napredna-Obdelava-Slik.git
